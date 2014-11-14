@@ -11,7 +11,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/crdroidandroid/android.git -b kitkat
+    $ repo init -u https://github.com/crdroidandroid/android.git -b cm-11.0
 
 
 sync repo :
