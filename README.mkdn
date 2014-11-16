@@ -17,3 +17,10 @@ Repo initialization:
 sync repo :
 
     $ repo sync
+
+Building
+--------
+
+    $ . build/envsetup.sh
+    $ lunch <choice your device (Step only for supported devices)>
+    $ brunch <your choice>
