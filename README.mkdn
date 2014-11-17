@@ -1,4 +1,4 @@
-[CrDroid Android](http://crdroid.org/)
+[crDroid Android](http://crdroid.org/)
 ======================================
 
 Download the Source
@@ -9,18 +9,35 @@ Please read the [AOSP building instructions](http://source.android.com/source/in
 Initializing Repository
 -----------------------
 
-Repo initialization:
+### Repo initialization ###
+---------------------------
+    $ repo init -u https://github.com/crdroidandroid/android.git -b <revision>
 
-    $ repo init -u https://github.com/crdroidandroid/android.git -b cm-12.0
 
 
-sync repo :
-
+### Sync repo ###
+-----------------
     $ repo sync
 
-Building
---------
 
+
+### Syncing specific projects ####
+----------------------------------
+This can help if, for example, you want to make a quick change and quickly push it
+back for review. You should note that this can sometimes cause issues when building if there is
+a large change that spans across multiple projects.
+
+# Specify one or more projects by either name or path
+
+# For example, enter crdroidandroid/android_frameworks_base or
+# frameworks/base to sync the frameworks/base repository
+
+$ repo sync PROJECT
+
+
+
+### Building ###
+----------------
     $ . build/envsetup.sh
     $ lunch <choice your device (Step only for supported devices)>
     $ brunch <your choice>
