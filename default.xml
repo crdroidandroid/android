@@ -180,7 +180,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
+  <project path="external/jpeg" name="crdroidandroid/android_external_jpeg" remote="github" revision="cm-12.0" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
