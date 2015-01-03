@@ -442,6 +442,7 @@
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/ScreenRecorder" name="crdroidandroid/android_packages_apps_ScreenRecorder" remote="github" revision="cm-12.0" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
