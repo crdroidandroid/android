@@ -534,7 +534,7 @@
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="github" revision="cm-12.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
+  <project path="system/extras/su" name="crdroidandroid/android_system_extras_su" remote="github" revision="cm-12.0" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
