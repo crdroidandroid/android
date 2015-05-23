@@ -16,6 +16,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="tm"
+           fetch="git://github.com/TheMuppets"
+           revision="cm-12.1" />
+
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
