@@ -10,7 +10,7 @@
            fetch="https://github.com" />
 
   <remote  name="CyanogenMod"
-           fetch="https://github.com"
+           fetch="https://github.com/cyanogenmod"
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
