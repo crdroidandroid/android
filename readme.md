@@ -29,7 +29,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/cristianomatos/android -b 5.1.1
+$ repo init -u https://github.com/crdroidandroid/android -b 5.1.1
 ```
 
 ### Downloading the source tree ###
