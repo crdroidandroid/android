@@ -603,5 +603,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="5.1.1" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="5.1.1" />
 </manifest>
