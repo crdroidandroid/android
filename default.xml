@@ -16,11 +16,11 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="muppets"
+  <remote  name="tm"
            fetch="git://github.com/TheMuppets"
            revision="cm-13.0" />
 
-  <remote  name="cr-devices"
+  <remote  name="crd"
            fetch="git://github.com/crdroid-devices"
            revision="6.0.0" />
 
