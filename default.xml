@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r3" />
+           revision="refs/tags/android-6.0.1_r10" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -266,6 +266,7 @@
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="github" revision="6.0.0" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="github" revision="6.0.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
@@ -315,7 +316,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="6.0.0" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="6.0.0" />
-  <project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 <!-- END CYANOGENMOD -->
