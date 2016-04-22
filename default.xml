@@ -289,6 +289,10 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="6.0.0" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="6.0.0" />
+<!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+<!-- END CMSDK SAMPLES -->
+
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
