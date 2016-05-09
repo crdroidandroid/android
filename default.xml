@@ -290,8 +290,9 @@
   <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="6.0.0" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="6.0.0" />
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
 <!-- END CYANOGENMOD -->
