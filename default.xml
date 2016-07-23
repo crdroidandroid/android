@@ -30,7 +30,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="crdroidandroid/android_build" remote="github" revision="6.0.0">
+  <project path="build" name="crdroidandroid/android_build" remote="github" revision="6.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="crdroidandroid/android" remote="github" revision="6.0.0" />
@@ -300,7 +300,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/crdroid" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="6.0.0" />
+  <project path="vendor/cm" name="crdroidandroid/android_vendor_crdroid" remote="github" revision="6.0" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="github" revision="6.0.0" />
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
