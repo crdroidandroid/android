@@ -32,8 +32,6 @@ $ cd WORKSPACE
 $ repo init -u https://github.com/crdroidandroid/android -b 7.0
 ```
 
-### Downloading the source tree ###
-
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
 first run, it is expected to take a while as it will download all the required Android source files
 and their change histories.
