@@ -498,6 +498,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
+  <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="github" revision="7.0" />
+  <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="github" revision="7.0" />
+
   <include name="snippets/cm-14.0.xml" />
 
 </manifest>
