@@ -1,50 +1,56 @@
-CyanogenMod
-===========
+# crDroid Android #
 
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
+## Grabbing the source ##
 
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
+simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
 
-    repo start cm-14.1 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
+### Installing Repo ###
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+```bash
+# Make a directory where Repo will be stored and add it to the path
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
 
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
+# Download Repo itself
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
+# Make Repo executable
+$ chmod a+x ~/bin/repo
+```
 
-Getting Started
----------------
+### Initializing Repo ###
 
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+```bash
+# Create a directory for the source files
+# This can be located anywhere (as long as the fs is case-sensitive)
+$ mkdir WORKSPACE
+$ cd WORKSPACE
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+# Install Repo in the created directory
+$ repo init -u https://github.com/crdroidandroid/android -b 7.1
+```
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
+This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
+first run, it is expected to take a while as it will download all the required Android source files
+and their change histories.
 
-Then to sync up:
+```bash
+# Let Repo take care of all the hard work
+$ repo sync
+```
 
-    repo sync
+## Building ##
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+```bash
+# Go to the root of the source tree...
+$ cd WORKSPACE
+# ...and run to prepare our devices list.
+$ . build/envsetup.sh
+# ...choose your device by picking a combo
+$ lunch
+# ... now run after the combo picked
+$ brunch "your device name"
+```
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
-
-Buildbot
---------
-
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+For more updates on crDroid Android, be part of our [Google+ community.](https://plus.google.com/communities/118297646046960923906)

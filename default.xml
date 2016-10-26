@@ -13,6 +13,13 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.0_r4" />
 
+  <remote  name="crdroid"
+           fetch=".."
+           sync-c="true"
+           sync-j="4"
+           review="review.cyanogenmod.org"
+           revision="refs/heads/7.1" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
@@ -20,9 +27,9 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
+  <!-- <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project> -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -300,7 +307,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -361,7 +368,7 @@
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+  <!-- <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" /> -->
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
@@ -388,7 +395,7 @@
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" groups="pdk-fs" /> -->
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
@@ -397,7 +404,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="CyanogenMod/android_packages_apps_SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" /> -->
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="CyanogenMod/android_packages_apps_StorageManager" />
@@ -408,7 +415,7 @@
   <project path="packages/apps/TV" name="CyanogenMod/android_packages_apps_TV" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
+  <!-- <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" /> -->
   <project path="packages/providers/BlockedNumberProvider" name="CyanogenMod/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -483,7 +490,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
-  <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" />
+  <!-- <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" /> -->
   <project path="system/tools/aidl" name="CyanogenMod/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
@@ -505,5 +512,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm.xml" />
+  <include name="snippets/crdroid.xml" />
 
 </manifest>
