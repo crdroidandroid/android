@@ -66,7 +66,7 @@
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <!-- <project path="vendor/cm" name="LineageOS/android_vendor_cm" /> -->
-  <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <!-- <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" /> -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
