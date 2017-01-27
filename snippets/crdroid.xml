@@ -19,6 +19,7 @@
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="teamsubstratum" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="crdroid" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
