@@ -20,6 +20,9 @@
            review="review.lineageos.org"
            revision="refs/heads/7.1" />
 
+  <remote name = "gitlab"
+           fetch = "https://gitlab.com/" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
