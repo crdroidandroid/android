@@ -18,7 +18,7 @@
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
   <project path="packages/apps/ExactCalculator" name="crdroidandroid/android_packages_apps_ExactCalculator" remote="crdroid" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="crdroidandroid/android_packages_apps_masquerade" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" remote="crdroid" />
