@@ -10,6 +10,7 @@
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="crdroid" />
   <project path="hardware/qcom/keymaster" name="crdroidandroid/android_hardware_qcom_keymaster" remote="crdroid" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
