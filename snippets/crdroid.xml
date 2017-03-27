@@ -8,6 +8,7 @@
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
+  <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="crdroid" />
