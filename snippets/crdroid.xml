@@ -18,6 +18,7 @@
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
