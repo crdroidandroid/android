@@ -12,7 +12,6 @@
   <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" remote="crdroid" />
-  <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/llvm" name="crdroidandroid/android_external_llvm" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/compile/libbcc" name="crdroidandroid/android_frameworks_compile_libbcc" remote="crdroid" />
