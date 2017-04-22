@@ -23,6 +23,9 @@
   <remote name = "gitlab"
            fetch = "https://gitlab.com/" />
 
+  <remote name = "bb"
+           fetch = "https://bitbucket.org/" />
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
