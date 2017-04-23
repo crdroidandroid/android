@@ -53,6 +53,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="crdroidandroid/arm-linux-androideabi-6.3" remote="github" revision="linaro" />
   <project path="prebuilts/go/linux-x86" name="crdroidandroid/prebuilts_go_linux-x86" remote="crdroid" />
   <project path="prebuilts/misc" name="crdroidandroid/prebuilts_misc" remote="crdroid" />
+  <project path="prebuilts/sdk/renderscript" name="crdroidandroid/prebuilts_sdk_renderscript" remote="crdroid" />
+  <project path="prebuilts/sdk/tools/linux" name="crdroidandroid/prebuilts_sdk_tools_linux" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
