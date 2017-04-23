@@ -9,6 +9,7 @@
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
+  <project path="external/aac" name="crdroidandroid/android_external_aac" remote="crdroid" />
   <project path="external/clang" name="crdroidandroid/android_external_clang" remote="crdroid" />
   <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
