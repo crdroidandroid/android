@@ -39,6 +39,7 @@
   <project path="frameworks/compile/libbcc" name="crdroidandroid/android_frameworks_compile_libbcc" remote="crdroid" />
   <project path="frameworks/compile/mclinker" name="crdroidandroid/android_frameworks_compile_mclinker" remote="crdroid" />
   <project path="frameworks/compile/slang" name="crdroidandroid/android_frameworks_compile_slang" remote="crdroid" />
+  <project path="frameworks/ex" name="crdroidandroid/android_frameworks_ex" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="crdroid" />
   <project path="frameworks/rs" name="crdroidandroid/android_frameworks_rs" remote="crdroid" />
