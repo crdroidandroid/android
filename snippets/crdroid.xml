@@ -20,6 +20,7 @@
   <project path="external/libphonenumber" name="crdroidandroid/android_external_libphonenumber" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
+  <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
   <project path="external/llvm" name="crdroidandroid/android_external_llvm" remote="crdroid" />
   <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
   <project path="external/okhttp" name="crdroidandroid/android_external_okhttp" remote="crdroid" />
