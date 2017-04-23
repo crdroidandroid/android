@@ -10,6 +10,7 @@
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/clang" name="crdroidandroid/android_external_clang" remote="crdroid" />
   <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
+  <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/guava" name="crdroidandroid/android_external_guava" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
