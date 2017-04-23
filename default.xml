@@ -310,8 +310,8 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
-  <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
+  <!-- <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" /> -->
+  <!-- <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" /> -->
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" remote="aosp" />
