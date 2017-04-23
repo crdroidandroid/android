@@ -146,7 +146,7 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk" remote="aosp" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" />
+  <!-- <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" /> -->
   <project path="external/guice" name="platform/external/guice" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" remote="aosp" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />

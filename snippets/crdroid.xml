@@ -11,6 +11,7 @@
   <project path="external/clang" name="crdroidandroid/android_external_clang" remote="crdroid" />
   <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
+  <project path="external/guava" name="crdroidandroid/android_external_guava" remote="crdroid" />
   <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" remote="crdroid" />
   <project path="external/llvm" name="crdroidandroid/android_external_llvm" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
