@@ -18,6 +18,8 @@
   <project path="external/llvm" name="crdroidandroid/android_external_llvm" remote="crdroid" />
   <project path="external/pdfium" name="crdroidandroid/android_external_pdfium" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
+  <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
+  <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
   <project path="external/webp" name="crdroidandroid/android_external_webp" remote="crdroid" />
   <project path="external/webrtc" name="crdroidandroid/android_external_webrtc" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
