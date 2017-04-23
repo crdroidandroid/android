@@ -18,6 +18,7 @@
   <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" remote="crdroid" />
   <project path="external/llvm" name="crdroidandroid/android_external_llvm" remote="crdroid" />
   <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
+  <project path="external/okhttp" name="crdroidandroid/android_external_okhttp" remote="crdroid" />
   <project path="external/pdfium" name="crdroidandroid/android_external_pdfium" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
