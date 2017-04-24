@@ -7,6 +7,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
+  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
   <project path="external/aac" name="crdroidandroid/android_external_aac" remote="crdroid" />
@@ -29,6 +30,7 @@
   <project path="external/mdnsresponder" name="crdroidandroid/android_external_mdnsresponder" remote="crdroid" />
   <project path="external/okhttp" name="crdroidandroid/android_external_okhttp" remote="crdroid" />
   <project path="external/pdfium" name="crdroidandroid/android_external_pdfium" remote="crdroid" />
+  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
@@ -44,6 +46,7 @@
   <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="crdroid" />
   <project path="frameworks/rs" name="crdroidandroid/android_frameworks_rs" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
+  <project path="hardware/qcom/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" />
   <project path="hardware/qcom/keymaster" name="crdroidandroid/android_hardware_qcom_keymaster" remote="crdroid" />
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
