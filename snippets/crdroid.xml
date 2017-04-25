@@ -65,7 +65,6 @@
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
-  <project path="prebuilts/build-tools" name="crdroidandroid/build-tools" remote="crdroid" />
   <project path="prebuilts/go/linux-x86" name="crdroidandroid/prebuilts_go_linux-x86" remote="crdroid" />
   <project path="prebuilts/misc" name="crdroidandroid/prebuilts_misc" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
