@@ -11,13 +11,17 @@
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
   <project path="external/aac" name="crdroidandroid/android_external_aac" remote="crdroid" />
+  <project path="external/clang" name="crdroidandroid/android_external_clang" remote="crdroid" />
+  <project path="external/compiler-rt" name="crdroidandroid/android_external_compiler-rt" remote="crdroid" />
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/guava" name="crdroidandroid/android_external_guava" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
   <project path="external/libavc" name="crdroidandroid/android_external_libavc" remote="crdroid" />
+  <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
+  <project path="external/libncurses" name="crdroidandroid/android_external_libncurses" remote="crdroid" />
   <project path="external/libphonenumber" name="crdroidandroid/android_external_libphonenumber" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
@@ -34,9 +38,13 @@
   <project path="external/webrtc" name="crdroidandroid/android_external_webrtc" remote="crdroid" />
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/compile/libbcc" name="crdroidandroid/android_frameworks_compile_libbcc" remote="crdroid" />
+  <project path="frameworks/compile/mclinker" name="crdroidandroid/android_frameworks_compile_mclinker" remote="crdroid" />
+  <project path="frameworks/compile/slang" name="crdroidandroid/android_frameworks_compile_slang" remote="crdroid" />
   <project path="frameworks/ex" name="crdroidandroid/android_frameworks_ex" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="crdroid" />
+  <project path="frameworks/rs" name="crdroidandroid/android_frameworks_rs" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
   <project path="hardware/qcom/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" />
   <project path="hardware/qcom/keymaster" name="crdroidandroid/android_hardware_qcom_keymaster" remote="crdroid" />
@@ -68,6 +76,8 @@
   <project path="prebuilts/build-tools" name="crdroidandroid/build-tools" remote="crdroid" />
   <project path="prebuilts/go/linux-x86" name="crdroidandroid/prebuilts_go_linux-x86" remote="crdroid" />
   <project path="prebuilts/misc" name="crdroidandroid/prebuilts_misc" remote="crdroid" />
+  <project path="prebuilts/sdk/renderscript" name="crdroidandroid/prebuilts_sdk_renderscript" remote="crdroid" />
+  <project path="prebuilts/sdk/tools/linux" name="crdroidandroid/prebuilts_sdk_tools_linux" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
