@@ -32,6 +32,7 @@
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
   <project path="external/webp" name="crdroidandroid/android_external_webp" remote="crdroid" />
   <project path="external/webrtc" name="crdroidandroid/android_external_webrtc" remote="crdroid" />
+  <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/ex" name="crdroidandroid/android_frameworks_ex" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
