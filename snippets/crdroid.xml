@@ -75,6 +75,7 @@
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/build-tools" remote="crdroid" />
   <project path="prebuilts/clang/host/linux-x86" name="crdroidandroid/clang_host_linux-x86" remote="crdroid" />
+  <project path="prebuilts/clang/host/linux-x86/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" remote="aosp" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/5.0" name="neobuddy89/dragontc-5.0" remote="bb" revision="dragon-tc" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="neobuddy89/aarch64-6.3" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" name="crdroidandroid/aarch64-linux-android-6.3" remote="github" revision="linaro" />
