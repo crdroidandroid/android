@@ -36,7 +36,6 @@
   <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <!-- <project path="packages/apps/CMParts" name="LineageOS/android_packages_apps_CMParts" /> -->
   <!-- <project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" /> -->
@@ -45,6 +44,7 @@
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
   <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
@@ -119,6 +119,7 @@
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
 
   <!-- Infrastructure
+  <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
   <project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
   <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
@@ -127,4 +128,8 @@
   <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" /> -->
+
+  <!-- Tools
+  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" /> -->
 </manifest>
