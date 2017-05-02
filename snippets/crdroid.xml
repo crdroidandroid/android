@@ -80,6 +80,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-2690385" name="crdroidandroid/prebuilts_clang_host_linux-x86_clang-2690385" remote="crdroid" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-6.3" name="neobuddy89/aarch64-6.3" remote="bb" revision="linaro" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" name="crdroidandroid/aarch64-linux-android-6.3" remote="github" revision="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.3" name="neobuddy89/arm-eabi-6.x" remote="bb" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" name="crdroidandroid/arm-linux-androideabi-6.3" remote="github" revision="linaro" />
   <project path="prebuilts/go/linux-x86" name="crdroidandroid/prebuilts_go_linux-x86" remote="crdroid" />
   <project path="prebuilts/misc" name="crdroidandroid/prebuilts_misc" remote="crdroid" />
