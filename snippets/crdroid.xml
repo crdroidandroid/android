@@ -93,6 +93,6 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/cm" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="crdroid" />
-  <project path="vendor/crDroidOTA" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
+  <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
 
 </manifest>
