@@ -54,6 +54,7 @@
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
+  <project path="packages/apps/crDroidOTA" name="crdroidandroid/android_packages_apps_crDroidOTA" remote="crdroid" />
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
@@ -92,5 +93,6 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/cm" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/cmsdk" name="crdroidandroid/cm_platform_sdk" remote="crdroid" />
+  <project path="vendor/crDroidOTA" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
 
 </manifest>
