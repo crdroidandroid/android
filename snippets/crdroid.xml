@@ -17,7 +17,7 @@
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
-  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" revision="7.1-bck" />
+  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   <project path="packages/apps/CMParts" name="crdroidandroid/android_packages_apps_CMParts" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/ContactsCommon" name="crdroidandroid/android_packages_apps_ContactsCommon" remote="crdroid" />
