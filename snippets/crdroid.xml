@@ -38,7 +38,6 @@
   <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
   <project path="packages/apps/PhoneCommon" name="crdroidandroid/android_packages_apps_PhoneCommon" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
-  <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/apps/ThemeInterfacer" name="crdroidandroid/android_packages_apps_ThemeInterfacer" remote="crdroid" />
   <project path="packages/apps/Trebuchet" name="crdroidandroid/android_packages_apps_Trebuchet" remote="crdroid" />
