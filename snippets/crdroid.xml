@@ -8,6 +8,7 @@
   </project>
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+  <project path="external/bash" name="crdroidandroid/android_external_bash" remote="crdroid" />
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
