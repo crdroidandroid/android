@@ -26,6 +26,10 @@
   <remote name = "bb"
            fetch = "https://bitbucket.org/" />
 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/quic/la"
+           review="codeaurora.org"/>
+
   <default revision="refs/heads/cm-14.1"
            remote="github"
            sync-c="true"
