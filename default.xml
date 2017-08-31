@@ -13,6 +13,21 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.0.0_r3" />
 
+  <remote  name="crdroid"
+           fetch=".."
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/8.0" />
+
+  <remote name = "gitlab"
+           fetch = "https://gitlab.com/" />
+
+  <remote name = "bb"
+           fetch = "https://bitbucket.org/" />
+
+  <remote  name="caf"
+           fetch="git://codeaurora.org/quic/la" />
+
   <default revision="refs/heads/lineage-15.0"
            remote="github"
            sync-c="true"
@@ -558,6 +573,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/crdroid.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
