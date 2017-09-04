@@ -2,7 +2,8 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <project path="android" name="crdroidandroid/android" />
+  <project path="android" name="crdroidandroid/android" remote="crdroid" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" revision="master" clone-depth="1" />
+  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 
 </manifest>
