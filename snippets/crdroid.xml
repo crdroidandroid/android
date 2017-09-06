@@ -16,6 +16,8 @@
 
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
 
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
