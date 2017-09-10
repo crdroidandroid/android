@@ -17,8 +17,11 @@
   </project>
 
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
+  <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
 
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+
+  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
@@ -32,6 +35,7 @@
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 
 </manifest>
