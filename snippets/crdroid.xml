@@ -20,6 +20,7 @@
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
 
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
@@ -27,6 +28,7 @@
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidOTA" name="crdroidandroid/android_packages_apps_crDroidOTA" remote="crdroid" />
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" revision="master" clone-depth="1" />
