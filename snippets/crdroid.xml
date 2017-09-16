@@ -6,6 +6,8 @@
 
   <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
 
+  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+
   <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
