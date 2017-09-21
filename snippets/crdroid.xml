@@ -18,6 +18,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
