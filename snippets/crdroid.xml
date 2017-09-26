@@ -28,6 +28,7 @@
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
+  <project path="external/selinux" name="crdroidandroid/android_external_selinux" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
