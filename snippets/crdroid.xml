@@ -33,6 +33,7 @@
   <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
 
   <project path="hardware/qcom/audio-caf/msm8998" name="NastyAndroidDevs/android_hardware_qcom_audio" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="NastyAndroidDevs/android_hardware_qcom_display" revision="lineage-15.0-aosp-8998" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
