@@ -52,6 +52,7 @@
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" revision="master" clone-depth="1" />
 
+  <project path="system/bt" name="crdroidandroid/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
