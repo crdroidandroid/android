@@ -17,6 +17,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
