@@ -1,52 +1,56 @@
-LineageOS
-===========
+# crDroid Android #
 
-Submitting Patches
-------------------
+## Grabbing the source ##
 
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
-You can do this by using these commands:
+[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
+simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
 
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    lineagegerrit <for(new)/changes(patch set)> <branch/change-id>
+### Installing Repo ###
 
-    repo start lineage-15.0 .
-    (Make your changes and commit)
-    repo upload .
+```bash
+# Make a directory where Repo will be stored and add it to the path
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
 
-Note: "." means the current directory
-For more help on using this tool, use this command: `repo help upload`
+# Download Repo itself
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
+# Make Repo executable
+$ chmod a+x ~/bin/repo
+```
 
-To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
+### Initializing Repo ###
 
+```bash
+# Create a directory for the source files
+# This can be located anywhere (as long as the fs is case-sensitive)
+$ mkdir crDroid
+$ cd crDroid
 
-Getting Started
----------------
+# Install Repo in the created directory
+$ repo init -u git://github.com/crdroidandroid/android.git -b 8.0
+```
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
+first run, it is expected to take a while as it will download all the required Android source files
+and their change histories.
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+```bash
+# Let Repo take care of all the hard work
+$ repo sync
+```
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+## Building ##
 
-Then to sync up:
+```bash
+# Go to the root of the source tree...
+$ cd crDroid
+# ...and run to prepare our devices list.
+$ . build/envsetup.sh
+# ...choose your device by picking a combo
+$ lunch
+# ... now run after the combo picked
+$ brunch "your device name"
+```
 
-    repo sync
-
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
+For more updates on crDroid Android, be part of our [Google+ community.](https://plus.google.com/communities/118297646046960923906)
