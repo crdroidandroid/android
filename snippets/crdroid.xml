@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid additions -->
+  <project path="android" name="crdroidandroid/android" remote="crdroid" />
+
+  <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
+
+  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+
+  <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
+  <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
+  <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
+  <project path="external/ImageMagick" name="crdroidandroid/android_external_ImageMagick" remote="crdroid" />
+  <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
+  <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
+  <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
+  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
+  <project path="external/v8" name="crdroidandroid/android_external_v8" remote="crdroid" />
+
+  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+
+  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
+
+  <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
+  <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" revision="master" clone-depth="1" />
+
+  <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <project path="system/extras" name="crdroidandroid/android_system_extras" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
+
+  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/crDroidOTA-devices" name="crdroid-devices/android_vendor_crDroidOTA" remote="crdroid" />
+  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+
+</manifest>
