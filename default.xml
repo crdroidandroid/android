@@ -134,7 +134,7 @@
   <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" remote="aosp" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" remote="aosp" />
-  <!--<project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />-->
+  <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" remote="aosp" />
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
@@ -144,7 +144,7 @@
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" remote="aosp" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
-  <!--<project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />-->
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" remote="aosp" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" groups="pdk" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
@@ -165,7 +165,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
-  <!--<project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />-->
+  <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk" remote="aosp" />
@@ -178,7 +178,7 @@
   <project path="external/javassist" name="platform/external/javassist" groups="pdk" remote="aosp" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" remote="aosp" />
-  <!--<project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />-->
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="pdk,tradefed,pdk-fs" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk" remote="aosp" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk" remote="aosp" />
@@ -227,14 +227,14 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" remote="aosp" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
-  <!--<project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />-->
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" remote="aosp" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" remote="aosp" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" remote="aosp" />
-  <!--<project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />-->
+  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" remote="aosp" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" remote="aosp" />
   <project path="external/lisa" name="platform/external/lisa" groups="pdk" remote="aosp" />
@@ -330,7 +330,7 @@
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" />
-  <!--<project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />-->
+  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
