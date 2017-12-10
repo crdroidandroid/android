@@ -19,7 +19,7 @@
            sync-j="4" />
 
   <remote  name="crdroid"
-           fetch=".."
+           fetch="https://github.com/"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/8.1" />
