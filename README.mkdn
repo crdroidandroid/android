@@ -40,8 +40,6 @@ and their change histories.
 $ repo sync
 ```
 
-## Building ##
-
 ```bash
 # Go to the root of the source tree...
 $ cd crDroid
