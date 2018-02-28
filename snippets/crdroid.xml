@@ -22,6 +22,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="device/crdroid/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
