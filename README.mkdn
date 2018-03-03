@@ -58,7 +58,7 @@ At crDroid, we have an automated script that also builds and uploads your device
 
 ## 2. Contributions ##
 
-To submit patches and translations, plesae send a pull requests on GitHub. We will review and merge.
+To submit changes/patches, please send a pull request on GitHub. We will review and merge.
 
 ## 3. How to become an Official Maintainer ##
 
