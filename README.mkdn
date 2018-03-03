@@ -54,7 +54,7 @@ $ brunch "your device name"
 ### 1.3 Automation ###
 
 At crDroid, we have an automated script that also builds and uploads your device to our AFH.  
-[Show me more](https://github.com/crdroidandroid/build_crDroid)
+[Show me more](https://github.com/crdroidandroid/build_crDroid).
 
 ## 2. Contributions ##
 
@@ -65,20 +65,26 @@ To submit patches and translations, plesae send a pull requests on GitHub. We wi
 Please send an email to Jeremy - **hokiealumnus[at]gmail[dot]com**  
 Jeremy will help set you up.
 
-## 4. Features, translations and forum template ##
+## 4. Features, translations, forum template and OTA ##
 
 ### 4.1 Features ###
 So you got a device build up and wondering where to start?  
-Well you can see all out ROM features in our [features repo](https://github.com/crdroidandroid/crdroid_features#crdroid-android)  
+Well you can see all out ROM features in our [features repo](https://github.com/crdroidandroid/crdroid_features#crdroid-android).  
 
 ### 4.2 Translations ###
 We use Crowdin for translations since is easy and everyone can do it.  
-To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations)
+To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations).
 
 ### 4.3 Forum template ###
 Build ready? Tested all features and translations are smooth?  
 Why not share your build over your beloved forums?  
-To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/8.1/ForumPostTemplate) to help out. Just edit what you need and let the downlods roll :sunglasses:
+To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/8.1/ForumPostTemplate) to help out. Just edit what you need and let the downlods roll. :sunglasses:  
+
+### 4.4 OTA ###
+So posted on forums and your users are enjoying your build.  
+Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
+Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
+You can set it up really easy by completing the **update.xml** file on [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA) repo.
 
 ## 5. Community ##
 
