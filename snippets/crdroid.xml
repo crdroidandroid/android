@@ -39,6 +39,7 @@
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+  <project path="libnativehelper" name="crdroidandroid/android_libnativehelper" remote="crdroid" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
