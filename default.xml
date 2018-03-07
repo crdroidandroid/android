@@ -9,7 +9,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://aosp.tuna.tsinghua.edu.cn/"
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r15" />
 
@@ -428,9 +428,7 @@
   <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
   <!--<project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
@@ -439,7 +437,6 @@
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
@@ -490,7 +487,7 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/NetworkRecommendation" name="platform/packages/services/NetworkRecommendation" groups="pdk-fs" remote="aosp" />
-  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <!--project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />-->
   <!--<project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
