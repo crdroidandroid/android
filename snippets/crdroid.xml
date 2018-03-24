@@ -55,7 +55,8 @@
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/SlimRecents" name="crdroidandroid/android_packages_apps_SlimRecents" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
-  <project path="packages/overlays/Lineage" name="crdroidandroid/android_packages_overlays_Lineage" remote="crdroid" />
+  <project path="packages/overlays/accents" name="crdroidandroid/android_packages_overlays_accents" remote="crdroid" />
+  <project path="packages/overlays/dark" name="crdroidandroid/android_packages_overlays_dark" remote="crdroid" />
   <project path="packages/providers/DownloadProvider" name="crdroidandroid/android_packages_providers_DownloadProvider" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
