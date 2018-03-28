@@ -69,6 +69,7 @@
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="neobuddy89/arm-eabi-4.9" revision="master" clone-depth="1" />
+  <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0" name="crdroidandroid/android_prebuilts_snapdragon-llvm_toolchains_llvm-Snapdragon-LLVM-for-Android-4.0" remote="crdroid" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
