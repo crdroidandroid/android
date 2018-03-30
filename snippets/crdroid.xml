@@ -62,6 +62,7 @@
   <project path="packages/overlays/accents" name="crdroidandroid/android_packages_overlays_accents" remote="crdroid" />
   <project path="packages/overlays/black" name="crdroidandroid/android_packages_overlays_black" remote="crdroid" />
   <project path="packages/overlays/dark" name="crdroidandroid/android_packages_overlays_dark" remote="crdroid" />
+  <project path="packages/providers/BlockedNumberProvider" name="crdroidandroid/android_packages_providers_BlockedNumberProvider" remote="crdroid" />
   <project path="packages/providers/DownloadProvider" name="crdroidandroid/android_packages_providers_DownloadProvider" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
