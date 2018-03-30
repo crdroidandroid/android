@@ -28,6 +28,7 @@
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/DUtils" name="crdroidandroid/android_external_DUtils" remote="crdroid" />
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/google" name="crdroidandroid/android_external_google" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
