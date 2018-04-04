@@ -43,6 +43,9 @@
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
 
+  <project path="hardware/ril" name="crdroidandroid/android_hardware_ril" remote="crdroid" />
+  <project path="hardware/ril-caf" name="crdroidandroid/android_hardware_ril" remote="crdroid" revision="8.1-caf" />
+
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
   <project path="libnativehelper" name="crdroidandroid/android_libnativehelper" remote="crdroid" />
 
