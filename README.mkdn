@@ -60,8 +60,7 @@ To submit changes/patches, please send a pull request on GitHub. We will review 
 
 ## 3. How to become an Official Maintainer ##
 
-Please send an email to Jeremy - **hokiealumnus[at]gmail[dot]com**  
-Jeremy will help set you up.
+Just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
 
 ## 4. Features, translations, forum template and OTA ##
 
