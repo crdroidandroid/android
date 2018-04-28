@@ -52,8 +52,7 @@
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
   <project path="packages/apps/crDroidFileManager" name="crdroidandroid/android_packages_apps_crDroidFileManager" remote="crdroid" />
-  <project path="packages/apps/crDroidHome" name="crdroidandroid/android_packages_apps_crDroidHome" remote="crdroid" />
-  <project path="packages/apps/crDroidHome2" name="crdroidandroid/android_packages_apps_crDroidHome2" remote="crdroid" />
+  <project path="packages/apps/crDroidHome3" name="crdroidandroid/android_packages_apps_crDroidHome3" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidWallpapers" name="crdroidandroid/android_packages_apps_crDroidWallpapers" remote="crdroid" />
