@@ -15,6 +15,8 @@
   <project path="external/lineage-sdk-api-coverage" name="LineageOS/android_external_lineage-sdk-api-coverage" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
+  <project path="external/one-true-awk" name="LineageOS/android_external_one-true-awk" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
@@ -27,7 +29,7 @@
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />
-  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
+  <project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
@@ -54,7 +56,7 @@
   <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
+  <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
   <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
 
   <!-- CodeAurora additions -->
@@ -75,6 +77,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-845" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8916" />
@@ -84,6 +87,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-845" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
   <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8916" />
@@ -93,11 +97,24 @@
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/media-caf/sdm845" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-845" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="LineageOS/android_hardware_qcom_neuralnetworks_hvxservice" >
+    <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
+  </project>
   <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk" />
+  <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" />
+  <project path="hardware/qcom/vr" name="LineageOS/android_hardware_qcom_vr" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.1-caf" />
-  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" />
+  <!--<project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" />-->
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
+  <project path="vendor/nxp/interfaces/opensource/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" >
+    <linkfile dest="vendor/nxp/interfaces/Android.bp" src="prop_pickup.bp"/>
+  </project>
+  <project path="vendor/nxp/opensource/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+  <project path="vendor/nxp/opensource/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+  <project path="vendor/nxp/opensource/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" >
