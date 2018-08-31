@@ -26,6 +26,7 @@
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
+  <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
@@ -37,6 +38,7 @@
 
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-4667116" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-4667116"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="crdroidandroid/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" remote="crdroid" clone-depth="1" />
