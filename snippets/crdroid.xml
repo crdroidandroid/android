@@ -33,6 +33,7 @@
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
 
   <project path="libnativehelper" name="crdroidandroid/android_libnativehelper" remote="crdroid" />
 
