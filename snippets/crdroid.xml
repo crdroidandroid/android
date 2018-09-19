@@ -45,6 +45,7 @@
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/Snap" name="crdroidandroid/android_packages_apps_Snap" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="packages/overlays/accents" name="crdroidandroid/android_packages_overlays_accents" remote="crdroid" />
   <project path="packages/overlays/black" name="crdroidandroid/android_packages_overlays_black" remote="crdroid" />
