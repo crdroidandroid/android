@@ -1,4 +1,6 @@
-# crDroid Android #
+![alt text][logo]
+
+[logo]:https://crdroid.net/images/logo.png "crDroid Android"
 
 ## 1. Grabbing the source ##
 
