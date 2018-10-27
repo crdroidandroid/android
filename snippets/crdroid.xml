@@ -37,7 +37,9 @@
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
+  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
@@ -60,6 +62,8 @@
   <project path="packages/overlays/black" name="crdroidandroid/android_packages_overlays_black" remote="crdroid" />
   <project path="packages/overlays/dark" name="crdroidandroid/android_packages_overlays_dark" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
+  <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
+  <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-4667116" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-4667116"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="crdroidandroid/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" remote="crdroid" clone-depth="1" />
@@ -68,6 +72,7 @@
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/codeaurora/telephony" name="crdroidandroid/android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 
 </manifest>
