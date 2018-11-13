@@ -32,12 +32,9 @@
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
 
-  <project path="hardware/libhardware" name="crdroidandroid/android_hardware_libhardware" remote="crdroid" />
-
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
-  <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
 
@@ -47,7 +44,6 @@
 
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
-  <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
