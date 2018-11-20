@@ -47,6 +47,8 @@
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="crdroid" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" remote="crdroid" />
   <project path="packages/apps/Snap" name="crdroidandroid/android_packages_apps_Snap" remote="crdroid" />
   <project path="packages/apps/Snap2" name="crdroidandroid/android_packages_apps_Snap2" remote="crdroid" />
