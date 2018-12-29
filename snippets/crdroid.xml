@@ -69,4 +69,5 @@
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" />
 </manifest>
