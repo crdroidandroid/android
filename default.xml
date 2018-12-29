@@ -631,7 +631,7 @@
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
-  <!-- <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" /> -->
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" remote="aosp" />
