@@ -43,6 +43,7 @@
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
+  <project path="packages/apps/crDroidFonts" name="crdroidandroid/android_packages_apps_crDroidFonts" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="crdroid" />
@@ -52,7 +53,6 @@
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" remote="crdroid" />
   <project path="packages/apps/Snap2" name="crdroidandroid/android_packages_apps_Snap2" remote="crdroid" />
   <project path="packages/apps/WeatherClient" name="crdroidandroid/android_packages_apps_WeatherClient" remote="crdroid" />
-  <project path="packages/fonts/crDroidFonts" name="crdroidandroid/android_packages_fonts_crDroidFonts" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
