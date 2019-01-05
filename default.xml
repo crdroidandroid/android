@@ -170,7 +170,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" remote="aosp" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
@@ -473,11 +473,22 @@
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk-qcom" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
+  <project path="hardware/qcom/sdm845/bt" name="LineageOS/android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/media" name="LineageOS/android_hardware_qcom_sdm845_media" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/thermal" name="LineageOS/android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/vr" name="LineageOS/android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
@@ -626,7 +637,7 @@
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" />
-  <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
