@@ -31,6 +31,7 @@
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
+  <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
