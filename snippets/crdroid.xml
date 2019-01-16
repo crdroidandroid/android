@@ -58,6 +58,7 @@
   <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
+  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-4667116" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-4667116"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-5058415" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5058415"  remote="crdroid" clone-depth="1" />
