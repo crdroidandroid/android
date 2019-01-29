@@ -70,4 +70,9 @@
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+
+  <!-- Temp tracking of lineage hw projects -->
+  <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
+  <project path="hardware/lineage/lineagehw" name="crdroidandroid/android_hardware_lineage_lineagehw" remote="crdroid" />
+  <project path="hardware/lineage/livedisplay" name="crdroidandroid/android_hardware_lineage_livedisplay" remote="crdroid" />
 </manifest>
