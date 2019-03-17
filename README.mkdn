@@ -84,7 +84,3 @@ So posted on forums and your users are enjoying your build.
 Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
 Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
 You can set it up really easy by completing the **update.xml** file on [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA) repo.
-
-## 5. Community ##
-
-For more updates on crDroid Android, be part of our [Google+ community.](https://plus.google.com/communities/118297646046960923906)
