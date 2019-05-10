@@ -387,7 +387,7 @@
   <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" remote="aosp" />
-  <!--<project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />-->
+  <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" remote="aosp" />
   <project path="external/volley" name="platform/external/volley" groups="pdk" remote="aosp" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" remote="aosp" />
