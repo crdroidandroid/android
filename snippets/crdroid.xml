@@ -36,6 +36,7 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="crdroid" />
+  <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
