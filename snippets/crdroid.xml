@@ -61,7 +61,7 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-4751641" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-4751641"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-5331180" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5331180"  remote="crdroid" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-5484270" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5484270"  remote="crdroid" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-5657785" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5657785"  remote="crdroid" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="crdroidandroid/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.9" remote="crdroid" clone-depth="1" />
   <project path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_4.0" name="crdroidandroid/android_prebuilts_snapdragon-llvm_toolchains_llvm-Snapdragon-LLVM-for-Android-4.0" remote="crdroid" clone-depth="1" />
 
