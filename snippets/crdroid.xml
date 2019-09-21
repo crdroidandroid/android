@@ -21,6 +21,11 @@
 
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
 
+  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
+
+  <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059"  remote="crdroid" clone-depth="1" />
 
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
