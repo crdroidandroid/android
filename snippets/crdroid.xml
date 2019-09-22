@@ -29,5 +29,6 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059"  remote="crdroid" clone-depth="1" />
 
+  <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 </manifest>
