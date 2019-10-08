@@ -32,6 +32,7 @@
   <project path="packages/apps/Recorder" name="crdroidandroid/android_packages_apps_Recorder" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
+  <project path="packages/apps/Snap2" name="crdroidandroid/android_packages_apps_Snap2" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059"  remote="crdroid" clone-depth="1" />
