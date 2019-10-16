@@ -42,5 +42,6 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/codeaurora/telephony" name="crdroidandroid/android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
+  <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 </manifest>
