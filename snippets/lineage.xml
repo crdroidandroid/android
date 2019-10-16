@@ -3,7 +3,7 @@
 
   <!-- LineageOS additions -->
   <!--<project path="android" name="LineageOS/android" />-->
-  <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
+  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
   <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -72,7 +72,7 @@
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
