@@ -272,7 +272,7 @@
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" remote="aosp" />
   <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" remote="aosp" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" remote="aosp" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" remote="aosp" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" remote="aosp" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk" remote="aosp" />
@@ -561,7 +561,7 @@
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
-  <project path="platform_testing" name="platform/platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="aosp" />
+  <project path="platform_testing" name="LineageOS/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
   <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
