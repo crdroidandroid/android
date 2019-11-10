@@ -37,6 +37,7 @@
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" remote="crdroid" />
+  <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
 
