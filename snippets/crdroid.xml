@@ -27,11 +27,9 @@
   <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="crdroid" />
-  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/noto-fonts" name="crdroidandroid/android_external_noto-fonts" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
-  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
