@@ -44,7 +44,10 @@
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
 
-  <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059"  remote="crdroid" clone-depth="1" />
+  <!-- Clang 9 version 9.0.8 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" remote="crdroid" clone-depth="1" />
+  <!-- Clang 10 version 10.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6032204" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6032204" remote="crdroid" clone-depth="1" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
 
