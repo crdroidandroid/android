@@ -51,6 +51,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-6032204" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6032204" remote="crdroid" clone-depth="1" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
