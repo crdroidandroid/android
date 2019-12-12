@@ -7,8 +7,14 @@
 [Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
 simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
 
-### 1.1 Installing Repo ###
+### 1.1 Installing dependencies and Repo ###
 
+Several packages are needed in order to build crDroid
+```
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev 
+```
+
+Install Repo tool
 ```bash
 # Make a directory where Repo will be stored and add it to the path
 $ mkdir ~/bin
@@ -53,7 +59,7 @@ $ brunch "your device codename"
 
 ### 1.3 Automation ###
 
-At crDroid, we have an automated script that also builds and uploads your device to our AFH.  
+At crDroid, we have an automated script that also builds and uploads your device to our official SourceForge page.  
 [Show me more](https://github.com/crdroidandroid/crdroid_build).
 
 ## 2. Contributions ##
@@ -83,4 +89,4 @@ To do so, we have made a [small template](https://github.com/crdroidandroid/crdr
 So posted on forums and your users are enjoying your build.  
 Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
 Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
-You can set it up really easy by completing the **update.xml** file on [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA) repo.
+You can set it up really easy by reading [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA/blob/10.0/README.md) repo description.
