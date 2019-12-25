@@ -29,10 +29,10 @@
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" revision="10.0-staging" />
   <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
 
-  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
+  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" revision="10.0-staging" />
 
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
-  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" revision="10.0-staging" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" revision="10.0-staging" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" revision="10.0-staging" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
