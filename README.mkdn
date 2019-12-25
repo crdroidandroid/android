@@ -1,37 +1,92 @@
-LineageOS
-===========
+![alt text][logo]
 
-Getting started
----------------
+[logo]:https://crdroid.net/img/logo.png "crDroid Android"
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+## 1. Grabbing the source ##
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
+simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
+
+### 1.1 Installing dependencies and Repo ###
+
+Several packages are needed in order to build crDroid
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
+sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev 
 ```
-Then to sync up:
+
+Install Repo tool
+```bash
+# Make a directory where Repo will be stored and add it to the path
+$ mkdir ~/bin
+$ PATH=~/bin:$PATH
+
+# Download Repo itself
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+# Make Repo executable
+$ chmod a+x ~/bin/repo
 ```
-repo sync
+
+### 1.2 Initializing Repo ###
+
+```bash
+# Create a directory for the source files
+# This can be located anywhere (as long as the fs is case-sensitive)
+$ mkdir crDroid
+$ cd crDroid
+
+# Install Repo in the created directory
+$ repo init -u git://github.com/crdroidandroid/android.git -b 10.0-staging
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
+first run, it is expected to take a while as it will download all the required Android source files
+and their change histories.
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+```bash
+# Let Repo take care of all the hard work
+$ repo sync
+```
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+```bash
+# Go to the root of the source tree...
+$ cd crDroid
+# ...and run to prepare our devices list
+$ . build/envsetup.sh
+# ... now run
+$ brunch "your device codename"
+```
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+### 1.3 Automation ###
 
+At crDroid, we have an automated script that also builds and uploads your device to our official SourceForge page.  
+[Show me more](https://github.com/crdroidandroid/crdroid_build).
 
-Buildbot
---------
+## 2. Contributions ##
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+To submit changes/patches, please send a pull request on GitHub. We will review and merge.
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
+## 3. How to become an Official Maintainer ##
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
+
+## 4. Features, translations, forum template and OTA ##
+
+### 4.1 Features ###
+So you got a device build up and wondering where to start?  
+Well you can see all out ROM features in our [features repo](https://github.com/crdroidandroid/crdroid_features#crdroid-android).  
+
+### 4.2 Translations ###
+We use Crowdin for translations since is easy and everyone can do it.  
+To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations).
+
+### 4.3 Forum template ###
+Build ready? Tested all features and translations are smooth?  
+Why not share your build over your beloved forums?  
+To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/10.0/ForumPostTemplate) to help out. Just edit what you need and let the downlods roll. :sunglasses:  
+
+### 4.4 OTA ###
+So posted on forums and your users are enjoying your build.  
+Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
+Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
+You can set it up really easy by reading [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA/blob/10.0/README.md) repo description.

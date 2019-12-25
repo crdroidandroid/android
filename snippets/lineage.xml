@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <!--<project path="android" name="LineageOS/android" />-->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
@@ -21,10 +21,10 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
@@ -32,19 +32,19 @@
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
+  <!--<project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />-->
   <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" revision="refs/heads/staging/lineage-17.0_merge-android-10.0.0_r9" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <!--<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" revision="refs/heads/staging/lineage-17.0_merge-android-10.0.0_r9" />-->
+  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
@@ -135,7 +135,7 @@
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" />
 
-  <!-- Infrastructure -->
+  <!-- Infrastructure
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
@@ -144,9 +144,9 @@
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" /> -->
 
-  <!-- Tools -->
+  <!-- Tools
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" /> -->
 </manifest>
