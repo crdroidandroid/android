@@ -24,6 +24,7 @@
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" revision="10.0-staging" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" revision="10.0-staging" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" revision="10.0-staging" />
+  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" revision="10.0-staging" />
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" revision="10.0-staging" />
