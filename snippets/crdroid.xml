@@ -23,6 +23,7 @@
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
