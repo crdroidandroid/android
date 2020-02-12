@@ -33,8 +33,7 @@
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
-  <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
-  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
@@ -45,6 +44,8 @@
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" remote="crdroid" />
   <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" remote="crdroid" />
+  <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
