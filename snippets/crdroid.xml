@@ -53,10 +53,10 @@
 
   <!-- Clang 9 version 9.0.8 -->
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" remote="crdroid" clone-depth="1" />
-  <!-- Clang 10 version 10.0.2 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-6170260" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6170260" remote="crdroid" clone-depth="1" />
   <!-- Clang 10 version 10.0.3 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6194136" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6194136" remote="crdroid" clone-depth="1" />
+  <!-- Clang 10 version 10.0.4 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6207600" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6207600" remote="crdroid" clone-depth="1" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
