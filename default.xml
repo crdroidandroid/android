@@ -50,8 +50,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>-->
-  <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <!--<project path="art" name="LineageOS/android_art" groups="pdk" />-->
+  <!--<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />-->
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -355,7 +355,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" remote="aosp" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" remote="aosp" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />
+  <!--<project path="external/sqlite" name="platform/external/sqlite" groups="pdk" remote="aosp" />-->
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" remote="aosp" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" remote="aosp" />

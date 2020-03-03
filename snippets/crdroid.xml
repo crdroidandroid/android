@@ -4,6 +4,10 @@
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
 
+  <project path="art" name="crdroidandroid/android_art" remote="crdroid" />
+
+  <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
+
   <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,6 +24,8 @@
   </project>
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+
+  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
