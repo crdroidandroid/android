@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="BlissRoms"  fetch="https://github.com/BlissRoms" revision="q"  />
+  <!-- Vendor -->
+  <project path="vendor/support" name="platform_vendor_support" remote="BlissRoms" />
+</manifest>
