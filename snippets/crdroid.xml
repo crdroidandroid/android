@@ -75,8 +75,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-5900059" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-5900059" remote="crdroid" clone-depth="1" />
   <!-- Clang 10 version 10.0.6 -->
   <project path="prebuilts/clang/host/linux-x86/clang-6364210" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6364210" remote="crdroid" clone-depth="1" />
-  <!-- Clang 11 version 11.0.2 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-6573524" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6573524" remote="crdroid" clone-depth="1" />
+  <!-- Clang 11 version 11.0.3 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-6607189" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-6607189" remote="crdroid" clone-depth="1" />
 
   <project path="system/bt" name="crdroidandroid/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
