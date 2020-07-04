@@ -69,6 +69,7 @@
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="crdroid" />
 
+  <project path="prebuilts/abi-dumps/ndk" name="crdroidandroid/android_prebuilts_abi-dumps_ndk" clone-depth="1" remote="crdroid" />
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/r8" name="crdroidandroid/android_prebuilts_r8" remote="crdroid" clone-depth="1" />
 
