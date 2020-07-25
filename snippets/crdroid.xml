@@ -33,6 +33,7 @@
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
   <project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />
   <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
+  <project path="external/pulse" name="crdroidandroid/android_external_pulse" remote="crdroid" />
   <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/tinyxml2" name="crdroidandroid/android_external_tinyxml2" remote="crdroid" />
