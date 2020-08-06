@@ -27,6 +27,7 @@
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
   <project path="external/f2fs-tools" name="crdroidandroid/android_external_f2fs-tools" remote="crdroid" />
+  <project path="external/gptfdisk" name="crdroidandroid/android_external_gptfdisk" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
