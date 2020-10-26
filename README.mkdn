@@ -73,7 +73,15 @@ Just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the devic
 ## 4. crDroid features / overlays, translations, forum template and OTA ##
 
 ### 4.1 crDroid features / overlays ###
-TBD 
+Set those overlays to proper paths
+
+Frameworks base  
+```overlay/frameworks/base/core/res/res/values/config.xml```  
+[https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/core/res/res/values/cr_config.xml](https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/core/res/res/values/cr_config.xml)
+
+SystemUI  
+```overlay/frameworks/base/packages/SystemUI/res/values/config.xml```  
+[https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/packages/SystemUI/res/values/cr_config.xml](https://github.com/crdroidandroid/android_frameworks_base/blob/11.0/packages/SystemUI/res/values/cr_config.xml)
 
 ### 4.2 Translations ###
 We use Crowdin for translations since is easy and everyone can do it.  
