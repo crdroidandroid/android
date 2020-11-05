@@ -24,6 +24,12 @@
            sync-j="4"
            revision="refs/heads/10.0" />
 
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/10.0" />
+
   <remote name = "bb"
            fetch = "https://bitbucket.org/" />
 
