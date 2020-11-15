@@ -39,6 +39,13 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
 
+  <project path="hardware/qcom-caf/sdm845/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-sm8150" />
+
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
@@ -69,4 +76,5 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
 </manifest>
