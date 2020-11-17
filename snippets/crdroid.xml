@@ -8,8 +8,6 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
-  <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" remote="crdroid" />
-
   <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
