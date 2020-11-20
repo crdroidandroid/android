@@ -29,6 +29,7 @@
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/moto/faceunlock" name="crdroidandroid/android_external_moto_faceunlock" remote="crdroid-gitlab" />
+  <project path="external/scudo" name="crdroidandroid/android_external_scudo" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
