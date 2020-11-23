@@ -41,9 +41,6 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-sm8150" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
