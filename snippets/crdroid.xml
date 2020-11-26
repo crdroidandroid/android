@@ -66,6 +66,7 @@
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
 
