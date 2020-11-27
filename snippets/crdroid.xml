@@ -38,6 +38,9 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
 
+  <project path="hardware/qcom-caf/msm8996/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8998/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-msm8998" />
