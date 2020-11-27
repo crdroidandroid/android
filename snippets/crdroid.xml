@@ -65,6 +65,9 @@
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" clone-depth="1" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
 
+  <!-- Proton Clang by kdrag0n -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
