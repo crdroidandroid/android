@@ -78,6 +78,7 @@
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
+  <project path="vendor/codeaurora/telephony" name="crdroidandroid/android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 </manifest>
