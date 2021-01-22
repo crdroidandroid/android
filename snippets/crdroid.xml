@@ -82,6 +82,7 @@
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/hardware/interfaces" name="crdroidandroid/android_system_hardware_interfaces" remote="crdroid" />
   <project path="system/iorap" name="crdroidandroid/android_system_iorap" remote="crdroid" />
+  <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
 
