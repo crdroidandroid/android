@@ -96,6 +96,7 @@
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
+  <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
 
