@@ -32,6 +32,8 @@
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
+  <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
+  <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
   <project path="external/moto/faceunlock" name="crdroidandroid/android_external_moto_faceunlock" remote="crdroid-gitlab" />
   <project path="external/scudo" name="crdroidandroid/android_external_scudo" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
