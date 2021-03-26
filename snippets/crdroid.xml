@@ -35,6 +35,7 @@
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
   <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
+  <project path="external/lz4" name="crdroidandroid/android_external_lz4" remote="crdroid" />
   <project path="external/scudo" name="crdroidandroid/android_external_scudo" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
