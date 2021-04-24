@@ -66,6 +66,7 @@
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
+  <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
@@ -105,5 +106,6 @@
   <project path="vendor/codeaurora/telephony" name="crdroidandroid/android_vendor_codeaurora_telephony" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
 </manifest>
