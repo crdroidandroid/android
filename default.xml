@@ -16,7 +16,7 @@
   <remote  name="aosp2"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.2_r37" />
+           revision="refs/tags/android-7.1.2_r33" />
 
 
   <remote  name="crdroid"
