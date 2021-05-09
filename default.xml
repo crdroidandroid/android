@@ -12,6 +12,12 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r39" />
+  
+  <remote  name="aosp2"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-7.1.2_r37" />
+
 
   <remote  name="crdroid"
            fetch=".."
@@ -256,7 +262,7 @@
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" remote="aosp" />
   <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk" />
-  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" remote="aosp2" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" groups="pdk" remote="aosp" />
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
@@ -414,7 +420,7 @@
   <!-- <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" /> -->
   <!-- <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" groups="pdk-fs" remote="aosp2" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
   <!-- <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" /> -->
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
