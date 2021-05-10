@@ -114,7 +114,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" remote="aosp" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
+  <!--<project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />-->
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <!--<project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" remote="aosp" />-->
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" remote="aosp" />
@@ -194,7 +194,7 @@
   <project path="external/gwp_asan" name="platform/external/gwp_asan" groups="pdk" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" remote="aosp" />
    <!--<project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="aosp" />-->
-  <project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" remote="aosp" />
+  <!--<project path="external/honggfuzz" name="platform/external/honggfuzz" groups="pdk" remote="aosp" />-->
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" remote="aosp" />
@@ -267,7 +267,7 @@
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" remote="aosp" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" remote="aosp" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" remote="aosp" />
-  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
+  <!--<project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />-->
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" remote="aosp" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" remote="aosp" />
@@ -334,7 +334,7 @@
   <project path="external/python/apitools" name="platform/external/python/apitools" groups="pdk" remote="aosp" />
   <project path="external/python/asn1crypto" name="platform/external/python/asn1crypto" groups="pdk" remote="aosp" />
   <project path="external/python/cffi" name="platform/external/python/cffi" groups="pdk" remote="aosp" />
-  <project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" remote="aosp" />
+  <!--<project path="external/python/cpython2" name="platform/external/python/cpython2" groups="pdk" remote="aosp" />-->
   <project path="external/python/cpython3" name="platform/external/python/cpython3" groups="pdk" remote="aosp" />
   <project path="external/python/cryptography" name="platform/external/python/cryptography" groups="pdk" remote="aosp" />
   <project path="external/python/dateutil" name="platform/external/python/dateutil" groups="pdk" remote="aosp" />
@@ -530,7 +530,7 @@
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150p/Android.bp" />
   </project>
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="aosp" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
+  <!--<project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />-->
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
@@ -645,7 +645,7 @@
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
+  <!--<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />-->
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" groups="pdk-fs" clone-depth="1" remote="aosp" />
