@@ -41,6 +41,7 @@
   <project path="external/lz4" name="crdroidandroid/android_external_lz4" remote="crdroid" />
   <project path="external/python/cpython2" name="crdroidandroid/android_external_python_cpython2" remote="crdroid" />
   <project path="external/scudo" name="crdroidandroid/android_external_scudo" remote="crdroid" />
+  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" remote="crdroid" />
@@ -48,6 +49,7 @@
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/libs/native_bridge_support" name="crdroidandroid/android_frameworks_libs_native_bridge_support" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
