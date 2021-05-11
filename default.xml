@@ -771,7 +771,7 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" remote="aosp" />
-  <project path="tools/metalava" name="LineageOS/android_tools_metalava" groups="pdk,tools" />
+  <!--<project path="tools/metalava" name="LineageOS/android_tools_metalava" groups="pdk,tools" />-->
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" remote="aosp" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" remote="aosp" />
