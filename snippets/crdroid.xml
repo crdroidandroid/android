@@ -33,7 +33,6 @@
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/giflib" name="crdroidandroid/android_external_giflib" remote="crdroid" />
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" remote="crdroid" />
-  <project path="external/honggfuzz" name="crdroidandroid/android_external_honggfuzz" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
@@ -49,7 +48,6 @@
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-  <project path="frameworks/libs/native_bridge_support" name="crdroidandroid/android_frameworks_libs_native_bridge_support" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
@@ -96,8 +94,10 @@
 
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
-  <project path="prebuilts/clang/host/linux-x86" name="crdroidandroid/android_prebuilts_clang_host_linux-x86" remote="crdroid" />
 
+  <!-- Clang 12 version 12.0.5 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="crdroid" clone-depth="1" />
+  
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/hardware/interfaces" name="crdroidandroid/android_system_hardware_interfaces" remote="crdroid" />
   <project path="system/iorap" name="crdroidandroid/android_system_iorap" remote="crdroid" />
