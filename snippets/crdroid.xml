@@ -8,6 +8,8 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
+  <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" remote="crdroid" />
+
   <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -105,6 +107,7 @@
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
 
   <project path="tools/metalava" name="crdroidandroid/android_tools_metalava" remote="crdroid" />
