@@ -30,6 +30,7 @@
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
   <project path="external/asus/stitchimage" name="crdroidandroid/android_external_asus_stitchimage" remote="crdroid" />
   <project path="external/cpu_features" name="crdroidandroid/android_external_cpu_features" remote="crdroid" />
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/giflib" name="crdroidandroid/android_external_giflib" remote="crdroid" />
