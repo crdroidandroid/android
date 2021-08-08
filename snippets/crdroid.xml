@@ -98,8 +98,9 @@
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
 
-  <!-- Clang 12 version 12.0.7 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183d" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="crdroid" clone-depth="1" />
+  <!-- Clang 13 version 13.0.1 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r428724" remote="crdroid-gitlab" />
+
   <project path="prebuilts/r8" name="crdroidandroid/android_prebuilts_r8" remote="crdroid" clone-depth="1" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
