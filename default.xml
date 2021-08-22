@@ -703,8 +703,8 @@
   <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
-   <!--<project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />-->
-  <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
+  <!--<project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />-->
+  <!--<project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />-->
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" />
   <!--<project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />-->
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
