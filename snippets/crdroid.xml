@@ -115,6 +115,7 @@
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
+  <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
 
   <project path="tools/extract-utils" name="crdroidandroid/android_tools_extract-utils" remote="crdroid" />
   <project path="tools/metalava" name="crdroidandroid/android_tools_metalava" remote="crdroid" />
