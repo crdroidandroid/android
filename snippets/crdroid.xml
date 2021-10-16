@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid additions -->
+  <project path="android" name="crdroidandroid/android" remote="crdroid" />
+
+  <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="crdroidandroid/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+
+  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
+
+  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
+  <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
+
+  <!-- Clang 14 version 14.0.0 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112" remote="crdroid-gitlab" />
+
+  <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+
+  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+</manifest>

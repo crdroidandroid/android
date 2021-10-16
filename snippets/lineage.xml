@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <!--<project path="android" name="LineageOS/android" />-->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <!--<project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />-->
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
   <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
   <!--<project path="external/htop" name="LineageOS/android_external_htop" />-->
@@ -22,7 +22,7 @@
   <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
-  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />
+  <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
   <!--<project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />-->
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
@@ -32,21 +32,21 @@
   <!--<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />-->
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <!--<project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />-->
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
+  <!--<project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />-->
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" name="LineageOS/android_packages_apps_Seedvault" />
   <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
   <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <!--<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />-->
+  <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+  <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
 
   <!-- CodeAurora additions -->
   <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />-->
@@ -160,7 +160,7 @@
   <!--<project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" />-->
   <!--<project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" />-->
 
-  <!-- Infrastructure -->
+  <!-- Infrastructure
   <project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
@@ -169,9 +169,9 @@
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" /> -->
 
-  <!-- Tools -->
+  <!-- Tools
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" /> -->
 </manifest>
