@@ -20,12 +20,22 @@
   </project>
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+  <project path="device/qcom/sepolicy" name="crdroidandroid/android_device_qcom_sepolicy" remote="crdroid" />
+  <project path="device/qcom/sepolicy_vndr" name="crdroidandroid/android_device_qcom_sepolicy_vndr" remote="crdroid" />
+
+  <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" />
+  <project path="hardware/qcom-caf/bootctrl" name="crdroidandroid/android_hardware_qcom_bootctrl" revision="12.0-caf" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/thermal" name="crdroidandroid/android_hardware_qcom_thermal" remote="crdroid" />
+  <project path="hardware/qcom-caf/wlan" name="crdroidandroid/android_hardware_qcom_wlan" revision="12.0-caf" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
@@ -44,4 +54,19 @@
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/audio" name="crdroidandroid/android_vendor_qcom_opensource_audio" remote="crdroid" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="crdroidandroid/android_vendor_qcom_opensource_audio-hal_st-hal" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="crdroidandroid/android_vendor_qcom_opensource_display-commonsys-intf" remote="crdroid" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" remote="crdroid" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
+  <project path="vendor/qcom/opensource/dataservices" name="crdroidandroid/android_vendor_qcom_opensource_dataservices" remote="crdroid" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_fm-commonsys" remote="crdroid" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="crdroidandroid/android_vendor_qcom_opensource_healthd-ext" remote="crdroid" />
+  <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
+  <project path="vendor/qcom/opensource/libfmjni" name="crdroidandroid/android_vendor_qcom_opensource_libfmjni" remote="crdroid" />
+  <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="crdroidandroid/android_vendor_qcom_opensource_thermal-engine" remote="crdroid" />
+  <project path="vendor/qcom/opensource/vibrator" name="crdroidandroid/android_vendor_qcom_opensource_vibrator" remote="crdroid" />
+  <project path="vendor/qcom/opensource/usb" name="crdroidandroid/android_vendor_qcom_opensource_usb" remote="crdroid" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_wfd-commonsys" remote="crdroid" />
 </manifest>
