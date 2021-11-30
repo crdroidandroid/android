@@ -68,6 +68,7 @@
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/qcom/opensource/audio" name="crdroidandroid/android_vendor_qcom_opensource_audio" remote="crdroid" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="crdroidandroid/android_vendor_qcom_opensource_audio-hal_st-hal" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="crdroidandroid/android_vendor_qcom_opensource_display-commonsys-intf" remote="crdroid" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" remote="crdroid" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
   <project path="vendor/qcom/opensource/dataservices" name="crdroidandroid/android_vendor_qcom_opensource_dataservices" remote="crdroid" />
