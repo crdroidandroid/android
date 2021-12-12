@@ -43,7 +43,6 @@
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/thermal" name="crdroidandroid/android_hardware_qcom_thermal" remote="crdroid" />
-  <project path="hardware/qcom-caf/wlan" name="crdroidandroid/android_hardware_qcom_wlan" revision="12.0-caf" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
@@ -78,8 +77,6 @@
   <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
   <project path="vendor/qcom/opensource/libfmjni" name="crdroidandroid/android_vendor_qcom_opensource_libfmjni" remote="crdroid" />
   <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="crdroidandroid/android_vendor_qcom_opensource_thermal-engine" remote="crdroid" />
-  <project path="vendor/qcom/opensource/vibrator" name="crdroidandroid/android_vendor_qcom_opensource_vibrator" remote="crdroid" />
   <project path="vendor/qcom/opensource/usb" name="crdroidandroid/android_vendor_qcom_opensource_usb" remote="crdroid" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_wfd-commonsys" remote="crdroid" />
 </manifest>
