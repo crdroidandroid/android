@@ -70,6 +70,9 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8350/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="11.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" revision="11.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8350" />
