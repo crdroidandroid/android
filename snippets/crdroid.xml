@@ -64,9 +64,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112" remote="crdroid-gitlab" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
+  <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
-  <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
+  <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
