@@ -27,6 +27,7 @@
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
   <project path="device/qcom/sepolicy" name="crdroidandroid/android_device_qcom_sepolicy" remote="crdroid" />
+  <project path="device/qcom/sepolicy-legacy-um" name="crdroidandroid/android_device_qcom_sepolicy-legacy-um" remote="crdroid" />
   <project path="device/qcom/sepolicy_vndr" name="crdroidandroid/android_device_qcom_sepolicy_vndr" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
