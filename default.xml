@@ -244,7 +244,7 @@
   <project path="external/javassist" name="platform/external/javassist" groups="pdk" remote="aosp" />
   <project path="external/jcommander" name="platform/external/jcommander" groups="pdk" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk" remote="aosp" />
-  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />
+  <!--<project path="external/jemalloc_new" name="platform/external/jemalloc_new" groups="pdk" remote="aosp" />-->
   <project path="external/jimfs" name="platform/external/jimfs" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="pdk,tradefed,pdk-fs" remote="aosp" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk" remote="aosp" />
