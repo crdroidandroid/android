@@ -48,6 +48,8 @@
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/thermal" name="crdroidandroid/android_hardware_qcom_thermal" remote="crdroid" />
 
+  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
