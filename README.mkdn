@@ -49,9 +49,7 @@ $ repo sync
 ```
 
 ```bash
-# Go to the root of the source tree...
-$ cd crDroid
-# ...and run to prepare our devices list
+# Run to prepare our devices list
 $ . build/envsetup.sh
 # ... now run
 $ brunch "your device codename"
