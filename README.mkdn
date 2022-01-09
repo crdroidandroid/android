@@ -66,7 +66,7 @@ To submit changes/patches, please send a pull request on GitHub. We will review 
 
 ## 3. How to become an Official Maintainer ##
 
-Just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
+Make sure you can follow our [rules-and-guidelines](https://github.com/crdroidandroid/rules-and-guidelines), then if all is right, just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
 
 ## 4. crDroid features / overlays, translations, forum template and OTA ##
 
