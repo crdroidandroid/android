@@ -52,6 +52,7 @@
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
+  <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
@@ -69,6 +70,7 @@
   <!-- Clang 14 version 14.0.1 -->
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="crdroid-gitlab" />
 
+  <project path="system/bt" name="crdroidandroid/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
@@ -80,6 +82,10 @@
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/qcom/opensource/audio" name="crdroidandroid/android_vendor_qcom_opensource_audio" remote="crdroid" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="crdroidandroid/android_vendor_qcom_opensource_audio-hal_st-hal" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroidandroid/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" remote="crdroid" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
   <project path="vendor/qcom/opensource/dataservices" name="crdroidandroid/android_vendor_qcom_opensource_dataservices" remote="crdroid" />
