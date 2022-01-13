@@ -73,6 +73,7 @@
   <project path="system/bt" name="crdroidandroid/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
+  <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
