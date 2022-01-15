@@ -42,7 +42,6 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" />
-  <project path="hardware/libhardware" name="crdroidandroid/android_hardware_libhardware" remote="crdroid" />
   <project path="hardware/qcom-caf/bootctrl" name="crdroidandroid/android_hardware_qcom_bootctrl" revision="12.0-caf" />
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.0-caf-sm8150" />
