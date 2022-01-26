@@ -42,11 +42,9 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" />
-  <project path="hardware/qcom-caf/bootctrl" name="crdroidandroid/android_hardware_qcom_bootctrl" revision="12.0-caf" />
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/thermal" name="crdroidandroid/android_hardware_qcom_thermal" remote="crdroid" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
@@ -87,8 +85,6 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
-  <project path="vendor/qcom/opensource/audio" name="crdroidandroid/android_vendor_qcom_opensource_audio" remote="crdroid" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="crdroidandroid/android_vendor_qcom_opensource_audio-hal_st-hal" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
@@ -101,6 +97,5 @@
   <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
   <project path="vendor/qcom/opensource/libfmjni" name="crdroidandroid/android_vendor_qcom_opensource_libfmjni" remote="crdroid" />
   <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />
-  <project path="vendor/qcom/opensource/usb" name="crdroidandroid/android_vendor_qcom_opensource_usb" remote="crdroid" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_wfd-commonsys" remote="crdroid" />
 </manifest>
