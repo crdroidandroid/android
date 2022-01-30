@@ -97,5 +97,4 @@
   <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
   <project path="vendor/qcom/opensource/libfmjni" name="crdroidandroid/android_vendor_qcom_opensource_libfmjni" remote="crdroid" />
   <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_wfd-commonsys" remote="crdroid" />
 </manifest>
