@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.0.0_r27" />
+           revision="refs/tags/android-12.0.0_r29" />
 
   <default revision="refs/heads/lineage-19.0"
            remote="github"
@@ -30,7 +30,7 @@
            sync-j="4"
            revision="refs/heads/12.0" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r27" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -964,7 +964,7 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <!--<project path="system/core" name="LineageOS/android_system_core" groups="pdk" />-->
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
