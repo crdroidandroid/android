@@ -95,7 +95,6 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" remote="crdroid" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
   <project path="vendor/qcom/opensource/dataservices" name="crdroidandroid/android_vendor_qcom_opensource_dataservices" remote="crdroid" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="crdroidandroid/android_vendor_qcom_opensource_fm-commonsys" remote="crdroid" />
   <project path="vendor/qcom/opensource/healthd-ext" name="crdroidandroid/android_vendor_qcom_opensource_healthd-ext" remote="crdroid" />
   <project path="vendor/qcom/opensource/interfaces" name="crdroidandroid/android_vendor_qcom_opensource_interfaces" remote="crdroid" />
   <project path="vendor/qcom/opensource/libfmjni" name="crdroidandroid/android_vendor_qcom_opensource_libfmjni" remote="crdroid" />
