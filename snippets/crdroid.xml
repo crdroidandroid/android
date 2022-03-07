@@ -47,6 +47,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="12.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" revision="12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/wlan" name="crdroidandroid/android_hardware_qcom_wlan" revision="12.0-caf" />
 
   <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
 
