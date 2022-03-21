@@ -31,8 +31,10 @@
   <project path="device/qcom/sepolicy_vndr" name="crdroidandroid/android_device_qcom_sepolicy_vndr" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" remote="crdroid" />
+  <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="crdroid" />
+  <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
