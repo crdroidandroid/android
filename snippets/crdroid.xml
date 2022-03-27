@@ -94,6 +94,7 @@
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
+  <project path="vendor/lawnicons" name="crdroidandroid/android_vendor_lawnicons" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
