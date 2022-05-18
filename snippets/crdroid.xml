@@ -60,7 +60,7 @@
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/Etar" name="crdroidandroid/android_packages_apps_Etar" remote="crdroid" />
   <project path="packages/apps/FaceUnlockService" name="crdroidandroid/android_packages_apps_FaceUnlockService" remote="crdroid" />
-  <project path="packages/apps/GamingMode" name="crdroidandroid/android_packages_apps_GamingMode" remote="crdroid" />
+  <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
