@@ -31,6 +31,7 @@
   <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="crdroid" />
   <project path="external/themelib" name="crdroidandroid/android_external_themelib" remote="crdroid" />
