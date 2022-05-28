@@ -86,6 +86,7 @@
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="crdroid" />
 
+  <project path="prebuilts/abi-dumps/ndk" name="crdroidandroid/android_prebuilts_abi-dumps_ndk" remote="crdroid" />
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" clone-depth="1" remote="crdroid" />
   <!-- Clang 14 version 14.0.2 -->
