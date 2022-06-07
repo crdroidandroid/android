@@ -97,7 +97,6 @@
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" remote="crdroid" />
   <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" remote="crdroid" />
-  <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" remote="crdroid" />
@@ -105,10 +104,7 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroidandroid/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="crdroidandroid/android_vendor_qcom_opensource_cryptfs_hw" remote="crdroid" />
   <project path="vendor/qcom/opensource/healthd-ext" name="crdroidandroid/android_vendor_qcom_opensource_healthd-ext" remote="crdroid" />
 </manifest>
