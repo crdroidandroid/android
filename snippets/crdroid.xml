@@ -62,6 +62,7 @@
 
   <project path="packages/apps/AudioFX" name="crdroidandroid/android_packages_apps_AudioFX" remote="crdroid" />
   <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
+  <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/DeskClock" name="crdroidandroid/android_packages_apps_DeskClock" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
