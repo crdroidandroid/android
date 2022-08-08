@@ -2,7 +2,10 @@
 <manifest>
 
   <remote name="github"
-          fetch="https://github.com/" />
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/lineage-19.1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
