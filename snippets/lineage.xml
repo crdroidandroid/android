@@ -75,7 +75,7 @@
   <!--<project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />-->
 
   <!-- CodeLinaro additions -->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />
+  <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" />-->
   <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-20.0-legacy-um" />
   <!--<project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" />-->
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" />

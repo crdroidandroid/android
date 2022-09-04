@@ -25,6 +25,7 @@
   </project>
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
+  <project path="device/qcom/sepolicy" name="crdroidandroid/android_device_qcom_sepolicy" groups="qcom,qssi" remote="crdroid" />
   <project path="device/qcom/sepolicy_vndr" name="crdroidandroid/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="crdroid" />
 
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
