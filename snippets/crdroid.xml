@@ -79,6 +79,7 @@
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
+  <project path="packages/apps/CellBroadcastReceiver" name="crdroidandroid/android_packages_apps_CellBroadcastReceiver" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/crDroidMusic" name="crdroidandroid/android_packages_apps_crDroidMusic" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />

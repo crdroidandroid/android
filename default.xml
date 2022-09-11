@@ -560,7 +560,7 @@
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <!--<project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />-->
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
