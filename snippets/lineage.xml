@@ -20,32 +20,26 @@
        mirror won't get that benefit from this remote/project. Place a line in
        a local manifest if you desire x86_64 Webview -->
   <!-- <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" clone-depth="1" revision="main" remote="gitlab" /> -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <!--<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
-  <!--<project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />-->
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" />
-  <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
-  <!--<project path="external/pigz" name="LineageOS/android_external_pigz" />-->
-  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />-->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
   <project path="external/vim" name="LineageOS/android_external_vim" />
-  <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
-  <!--<project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />-->
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
   <!--<project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />-->
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="lineage-sdk" name="LineageOS/android_lineage-sdk" />-->
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" name="LineageOS/android_packages_apps_Backgrounds" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
-  <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
@@ -67,6 +61,7 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" revision="lineage-19.1" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" revision="lineage-19.1" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.15" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" />
   <project path="vendor/crowdin" name="LineageOS/android_vendor_crowdin" />
@@ -132,16 +127,6 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <!--
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="qcom,qssi" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" />
-  -->
   <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
@@ -152,7 +137,6 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
-  <!--<project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom" />-->
   <project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" />
