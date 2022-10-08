@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
+  <remote name="github"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/lineage-20.0" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
