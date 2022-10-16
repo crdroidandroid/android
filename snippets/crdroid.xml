@@ -25,8 +25,6 @@
   </project>
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
-  <project path="device/qcom/sepolicy" name="crdroidandroid/android_device_qcom_sepolicy" groups="qcom,qssi" remote="crdroid" />
-  <project path="device/qcom/sepolicy_vndr" name="crdroidandroid/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
   <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
@@ -83,8 +81,6 @@
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="crdroid" />
-  <project path="vendor/qcom/opensource/vibrator" name="crdroidandroid/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
 
   <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="crdroid" />
