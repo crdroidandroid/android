@@ -32,6 +32,7 @@
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" groups="pdk" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" groups="pdk" remote="crdroid" />
+  <project path="external/mimalloc" name="crdroidandroid/android_external_mimalloc" remote="crdroid" />
   <project path="external/selinux" name="crdroidandroid/android_external_selinux" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
