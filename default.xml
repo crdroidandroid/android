@@ -13,7 +13,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-13.0.0_r20" />
+           revision="refs/tags/android-13.0.0_r30" />
 
   <default revision="refs/heads/lineage-20.0"
            remote="github"
@@ -32,7 +32,7 @@
            sync-j="4"
            revision="refs/heads/13.0" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r20" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r30" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
@@ -743,7 +743,7 @@
   <project path="frameworks/libs/native_bridge_support" name="platform/frameworks/libs/native_bridge_support" groups="pdk" remote="aosp" />
   <!--<project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />-->
   <project path="frameworks/libs/service_entitlement" name="platform/frameworks/libs/service_entitlement" groups="pdk" remote="aosp" />
-  <!--<project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs" remote="aosp" />-->
+  <!--<project path="frameworks/libs/systemui" name="LineageOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <!--<project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />-->
