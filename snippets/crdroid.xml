@@ -30,8 +30,11 @@
   <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" groups="pdk" remote="crdroid" />
+  <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" groups="pdk" remote="crdroid" />
+  <project path="external/libpng" name="crdroidandroid/android_external_libpng" groups="pdk" remote="crdroid" />
+  <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" groups="pdk" remote="crdroid" />
   <project path="external/selinux" name="crdroidandroid/android_external_selinux" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
