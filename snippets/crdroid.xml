@@ -109,6 +109,7 @@
 
   <project path="prebuilts/r8" name="crdroidandroid/android_prebuilts_r8" remote="crdroid" clone-depth="1" />
 
+  <project path="system/bpf" name="crdroidandroid/android_system_bpf" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" remote="crdroid" />
   <project path="system/hardware/interfaces" name="crdroidandroid/android_system_hardware_interfaces" remote="crdroid" />
   <project path="system/hwservicemanager" name="crdroidandroid/android_system_hwservicemanager" remote="crdroid" />
