@@ -27,7 +27,6 @@
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
-  <project path="external/elfutils" name="crdroidandroid/android_external_elfutils" groups="pdk" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" groups="pdk" remote="crdroid" />
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" groups="pdk" remote="crdroid" />
@@ -42,7 +41,6 @@
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
   <project path="external/vixl" name="crdroidandroid/android_external_vixl" remote="crdroid" />
-  <project path="external/zlib" name="crdroidandroid/android_external_zlib" groups="pdk" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk" remote="crdroid" />
   <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
