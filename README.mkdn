@@ -52,8 +52,9 @@ $ repo sync
 # Run to prepare our devices list
 $ . build/envsetup.sh
 # ... now run
-$ brunch "your device codename"
+$ brunch "your device codename" user
 ```
+Some devices might be buildable as userdebug/eng too, but user is the default build type that works with all devices.
 
 ### 1.3 Automation ###
 
