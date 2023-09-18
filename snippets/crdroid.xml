@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
+
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
+
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
 

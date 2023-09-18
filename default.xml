@@ -20,18 +20,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <remote  name="crdroid"
-           fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/13.0" />
-
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/13.0" />
-
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r67" />
   <contactinfo bugurl="go/repo-bug" />
 
