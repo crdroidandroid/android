@@ -1203,5 +1203,5 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/pixel.xml" />
+  <include name="snippets/crdroid.xml" />
 </manifest>

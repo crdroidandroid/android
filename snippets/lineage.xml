@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="LineageOS/android" />
+  <!--<project path="android" name="LineageOS/android" />-->
   <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <!--
   <project path="device/lineage/car" name="LineageOS/android_device_lineage_car" />
@@ -195,14 +195,14 @@
   -->
 
   <!-- Infrastructure -->
-  <project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
+  <!--<project path="lineage/charter" name="LineageOS/charter" groups="infra" revision="main" />
   <project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="main" />
   <project path="lineage/hudson" name="LineageOS/hudson" groups="infra" revision="main" />
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="main" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="main" />
-  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />
+  <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="main" />-->
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
-  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
+  <!--<project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="main" />
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />-->
 </manifest>
