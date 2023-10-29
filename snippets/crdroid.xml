@@ -42,6 +42,7 @@
   <project path="external/gptfdisk" name="crdroidandroid/android_external_gptfdisk" groups="pdk" remote="crdroid" />
   <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" groups="pdk" remote="crdroid" />
   <project path="external/mksh" name="crdroidandroid/android_external_mksh" groups="pdk" remote="crdroid" />
+  <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
   <project path="external/zstd" name="crdroidandroid/android_external_zstd" remote="crdroid" />
 
