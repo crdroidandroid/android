@@ -15,46 +15,54 @@ sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-mult
 ```
 
 Install Repo tool
-```bash
+
 # Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
+
+mkdir ~/bin
+
+PATH=~/bin:$PATH
 
 # Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 # Make Repo executable
-$ chmod a+x ~/bin/repo
-```
+
+chmod a+x ~/bin/repo
 
 ### 1.2 Initializing Repo ###
 
-```bash
 # Create a directory for the source files
+
 # This can be located anywhere (as long as the fs is case-sensitive)
-$ mkdir crDroid
-$ cd crDroid
+
+mkdir Watchdogs
+
+cd Watchdogs
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs
-```
+
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
+
 first run, it is expected to take a while as it will download all the required Android source files
+
 and their change histories.
 
-```bash
 # Let Repo take care of all the hard work
-$ repo sync
-```
 
-```bash
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
 # Run to prepare our devices list
-$ . build/envsetup.sh
-# ... now run
-$ lunch lineage_devicecodename-buildtype
-$ m bacon
-```
+
+. build/envsetup.sh
+
+export WITH_GMS=true
+
+lunch lineage_lemonadep-userdebug
+
+m bacon -j2
 
 ### 1.3 Automation ###
 
