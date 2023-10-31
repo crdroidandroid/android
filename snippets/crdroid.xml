@@ -101,7 +101,7 @@
   <project path="tools/extract-utils" name="crdroidandroid/android_tools_extract-utils" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
-  <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
+<!--   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" /> -->
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" groups="qcom,kailua-vendor" remote="crdroid" />
 </manifest>
