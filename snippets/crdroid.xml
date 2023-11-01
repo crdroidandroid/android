@@ -38,13 +38,8 @@
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
-  <project path="external/e2fsprogs" name="crdroidandroid/android_external_e2fsprogs" groups="pdk" remote="crdroid" />
-  <project path="external/gptfdisk" name="crdroidandroid/android_external_gptfdisk" groups="pdk" remote="crdroid" />
-  <project path="external/libcxx" name="crdroidandroid/android_external_libcxx" groups="pdk" remote="crdroid" />
-  <project path="external/mksh" name="crdroidandroid/android_external_mksh" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
-  <project path="external/zstd" name="crdroidandroid/android_external_zstd" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
@@ -53,7 +48,6 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk" remote="crdroid" />
-  <project path="hardware/libhardware" name="crdroidandroid/android_hardware_libhardware" groups="pdk" remote="crdroid" />
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
