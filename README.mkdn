@@ -52,7 +52,7 @@ and their change histories.
 
 # Let Repo take care of all the hard work
 
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync
 
 # Run to prepare our devices list
 
