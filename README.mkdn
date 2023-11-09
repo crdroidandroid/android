@@ -62,7 +62,7 @@ export WITH_GMS=true
 
 lunch lineage_lemonadep-userdebug
 
-m bacon -j3
+m bacon -j2
 
 ### 1.3 Automation ###
 
