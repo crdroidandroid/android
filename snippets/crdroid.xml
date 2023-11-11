@@ -90,6 +90,7 @@
   <project path="system/libziparchive" name="crdroidandroid/android_system_libziparchive" groups="pdk" remote="crdroid" />
   <project path="system/logging" name="crdroidandroid/android_system_logging" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
+  <project path="system/security" name="crdroidandroid/android_system_security" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/tools/mkbootimg" name="crdroidandroid/android_system_tools_mkbootimg" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
