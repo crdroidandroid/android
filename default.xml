@@ -1129,7 +1129,7 @@
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
-  <!--<project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" />-->
+  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
   <!--<project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" />-->
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />

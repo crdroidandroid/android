@@ -59,7 +59,6 @@
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="packages/apps/Etar" name="crdroidandroid/android_packages_apps_Etar" remote="crdroid" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
@@ -87,7 +86,6 @@
   <project path="system/extras" name="crdroidandroid/android_system_extras" groups="pdk" remote="crdroid" />
   <project path="system/keymaster" name="crdroidandroid/android_system_keymaster" groups="pdk" remote="crdroid" />
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" groups="pdk" remote="crdroid" />
-  <project path="system/libziparchive" name="crdroidandroid/android_system_libziparchive" groups="pdk" remote="crdroid" />
   <project path="system/logging" name="crdroidandroid/android_system_logging" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" groups="pdk" remote="crdroid" />
@@ -101,5 +99,4 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
-  <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" groups="qcom,kailua-vendor" remote="crdroid" />
 </manifest>
