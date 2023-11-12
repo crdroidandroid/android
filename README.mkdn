@@ -58,8 +58,6 @@ repo sync
 
 . build/envsetup.sh
 
-export WITH_GMS=true
-
 lunch lineage_lemonadep-userdebug
 
 m bacon -j2
