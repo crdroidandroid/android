@@ -32,10 +32,10 @@
     <linkfile src="tools" dest="build/tools" />
   </project>-->
   <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" remote="aosp" />
-  <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
+  <!--<project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
+  </project>-->
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
@@ -1174,7 +1174,7 @@
   <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" remote="aosp" />
   <project path="test/catbox" name="platform/test/catbox" remote="aosp" />
   <project path="toolchain/benchmark" name="toolchain/benchmark" remote="aosp" />
-  <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" remote="aosp" />
+  <!--<project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" remote="aosp" />-->
   <project path="tools/aadevtools" name="platform/tools/aadevtools" groups="pdk" remote="aosp" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="aosp" />
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" remote="aosp" />
