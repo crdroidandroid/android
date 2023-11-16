@@ -100,7 +100,6 @@
   <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="packages/resources/devicesettings" name="crdroidandroid/android_packages_resources_devicesettings" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="crdroid" />
