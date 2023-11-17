@@ -62,6 +62,7 @@
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/DeskClock" name="crdroidandroid/android_packages_apps_DeskClock" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
