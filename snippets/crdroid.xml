@@ -44,6 +44,7 @@
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
+  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
