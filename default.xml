@@ -937,7 +937,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <!--<project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />-->
   <!--<project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />-->
-  <!--<project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />-->
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" remote="aosp" />
@@ -1111,14 +1111,14 @@
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <!--<project path="system/core" name="LineageOS/android_system_core" groups="pdk" />-->
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
-  <!--<project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />-->
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" remote="aosp" />
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />
-  <!--<project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />-->
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/keymint" name="platform/system/keymint" groups="pdk" remote="aosp" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" remote="aosp" />
@@ -1133,7 +1133,7 @@
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
-  <!--<project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" />-->
+  <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" remote="aosp" />
   <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" groups="pdk" remote="aosp" />
@@ -1152,7 +1152,7 @@
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
-  <!--<project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" />-->
+  <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" />
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" remote="aosp" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" remote="aosp" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />

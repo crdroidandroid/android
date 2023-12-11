@@ -65,7 +65,6 @@
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/DeskClock" name="crdroidandroid/android_packages_apps_DeskClock" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/ExactCalculator" name="crdroidandroid/android_packages_apps_ExactCalculator" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
@@ -93,21 +92,15 @@
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
-  <project path="system/extras" name="crdroidandroid/android_system_extras" groups="pdk" remote="crdroid" />
-  <project path="system/keymaster" name="crdroidandroid/android_system_keymaster" groups="pdk" remote="crdroid" />
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" groups="pdk" remote="crdroid" />
-  <project path="system/logging" name="crdroidandroid/android_system_logging" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/server_configurable_flags" name="crdroidandroid/android_system_server_configurable_flags" groups="pdk" remote="crdroid" />
-  <project path="system/tools/mkbootimg" name="crdroidandroid/android_system_tools_mkbootimg" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
   <project path="system/vold" name="crdroidandroid/android_system_vold" groups="pdk" remote="crdroid" />
 
   <project path="toolchain/pgo-profiles" name="crdroidandroid/android_toolchain_pgo-profiles" groups="pdk" remote="crdroid" />
-
-  <project path="tools/extract-utils" name="crdroidandroid/android_tools_extract-utils" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
