@@ -108,7 +108,7 @@
   <project path="external/bc" name="platform/external/bc" groups="pdk" remote="aosp" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
+  <!--<project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />-->
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/bpftool" name="platform/external/bpftool" groups="pdk" remote="aosp" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" remote="aosp" />
@@ -388,7 +388,7 @@
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" remote="aosp" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" remote="aosp" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" remote="aosp" />
-  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp" />
+  <!--<project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp" />-->
   <project path="external/pffft" name="platform/external/pffft" groups="pdk" remote="aosp" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
   <project path="external/pigweed" name="platform/external/pigweed" groups="pdk" remote="aosp" />
@@ -633,7 +633,7 @@
   <project path="external/rust/crates/regex-syntax" name="platform/external/rust/crates/regex-syntax" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/remain" name="platform/external/rust/crates/remain" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/remove_dir_all" name="platform/external/rust/crates/remove_dir_all" groups="pdk" remote="aosp" />
-  <project path="external/rust/crates/ring" name="platform/external/rust/crates/ring" groups="pdk" remote="aosp" />
+  <!--<project path="external/rust/crates/ring" name="platform/external/rust/crates/ring" groups="pdk" remote="aosp" />-->
   <project path="external/rust/crates/rusqlite" name="platform/external/rust/crates/rusqlite" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rustc-hash" name="platform/external/rust/crates/rustc-hash" groups="pdk" remote="aosp" />
   <project path="external/rust/crates/rusticata-macros" name="platform/external/rust/crates/rusticata-macros" groups="pdk" remote="aosp" />
@@ -1132,7 +1132,7 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" />
-  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
+  <!--<project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />-->
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" remote="aosp" />

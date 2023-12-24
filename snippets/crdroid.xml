@@ -43,6 +43,9 @@
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
+  <project path="external/boringssl" name="crdroidandroid/android_external_boringssl" groups="pdk" remote="crdroid" />
+  <project path="external/perfetto" name="crdroidandroid/android_external_perfetto" groups="pdk" remote="crdroid" />
+  <project path="external/rust/crates/ring" name="crdroidandroid/android_external_rust_crates_ring" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
@@ -94,6 +97,7 @@
 
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" groups="pdk" remote="crdroid" />
+  <project path="system/linkerconfig" name="crdroidandroid/android_system_linkerconfig" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
