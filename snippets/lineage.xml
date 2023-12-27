@@ -187,6 +187,9 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
 
+   <!-- add Pixel Device gs-common repositories -->
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" />
+
   <!-- NXP additions -->
   <!--
   <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" />
