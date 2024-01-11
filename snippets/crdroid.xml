@@ -50,7 +50,6 @@
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
   <project path="external/wpa_supplicant_8" name="crdroidandroid/android_external_wpa_supplicant_8" groups="pdk" remote="crdroid" />
-  <project path="external/zlib" name="crdroidandroid/android_external_zlib-ng" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
   <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
