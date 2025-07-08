@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- For AOSP, parent might be @android:style/Theme.DeviceDefault.Settings or similar -->
+        <!-- Or Theme.MaterialComponents.DayNight.DarkActionBar if using Material Components -->
+    </style>
+
+    <!-- You might want a specific theme for your settings activity -->
+    <style name="GameSpaceSettingsTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Parent could be PreferenceThemeOverlay.v14.Material for material design preferences if using androidx.preference -->
+        <!-- Or investigate themes used by crDroidSettings if integrating there -->
+    </style>
+</resources>

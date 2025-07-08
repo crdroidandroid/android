@@ -1,0 +1,27 @@
+<resources>
+    <!-- Notification blocking modes -->
+    <string-array name="gaming_mode_notification_mode_entries">
+        <item>@string/gaming_mode_notification_mode_none</item>
+        <item>@string/gaming_mode_notification_mode_heads_up</item>
+        <item>@string/gaming_mode_notification_mode_all</item>
+    </string-array>
+
+    <string-array name="gaming_mode_notification_mode_values" translatable="false">
+        <item>none</item>
+        <item>heads_up</item>
+        <item>all</item>
+    </string-array>
+
+    <!-- Performance modes -->
+    <string-array name="gaming_mode_performance_mode_entries">
+        <item>@string/performance_mode_off</item>
+        <item>@string/performance_mode_balanced</item>
+        <item>@string/performance_mode_peak</item>
+    </string-array>
+
+    <string-array name="gaming_mode_performance_mode_values" translatable="false">
+        <item>off</item>
+        <item>balanced</item>
+        <item>performance</item>
+    </string-array>
+</resources>

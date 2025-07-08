@@ -1,0 +1,130 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_name">
+
+    <PreferenceCategory
+        android:key="gaming_mode_settings_category_global"
+        android:title="@string/gaming_mode_settings_category_global">
+
+        <SwitchPreferenceCompat
+            android:key="gaming_mode_master_switch"
+            android:title="@string/gaming_mode_enabled_title"
+            android:summary="@string/gaming_mode_enabled_summary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gaming_mode_settings_category_per_app"
+        android:title="@string/gaming_mode_settings_category_per_app"
+        app:dependency="gaming_mode_master_switch">
+
+        <Preference
+            android:key="gaming_mode_app_list"
+            android:title="@string/gaming_mode_apps_title"
+            android:summary="@string/gaming_mode_apps_summary"
+            app:iconSpaceReserved="false">
+            <!-- TODO: This will launch a new screen/dialog to manage game list and their specific settings -->
+        </Preference>
+
+    </PreferenceCategory>
+
+    <!-- The following are examples of what might be configured PER APP -->
+    <!-- These would typically be on a separate screen for each app, not directly here -->
+    <!-- This is just a conceptual placeholder -->
+
+    <PreferenceCategory
+        android:title="Example Per-App Settings (Conceptual)"
+        app:dependency="gaming_mode_master_switch">
+
+        <PreferenceCategory
+            android:key="gaming_mode_settings_category_notification_example"
+            android:title="@string/gaming_mode_settings_category_notification" >
+
+            <SwitchPreferenceCompat
+                android:key="per_app_notification_blocking_enabled_example"
+                android:title="@string/gaming_mode_notification_blocking_title"
+                android:summaryOn="@string/gaming_mode_notification_blocking_summary_on"
+                android:summaryOff="@string/gaming_mode_notification_blocking_summary_off"
+                android:defaultValue="true"
+                app:iconSpaceReserved="false"/>
+
+            <ListPreference
+                android:key="per_app_notification_mode_example"
+                android:title="@string/gaming_mode_notification_mode_title"
+                android:dialogTitle="@string/gaming_mode_notification_mode_dialog_title"
+                android:entries="@array/gaming_mode_notification_mode_entries"
+                android:entryValues="@array/gaming_mode_notification_mode_values"
+                android:defaultValue="heads_up"
+                app:dependency="per_app_notification_blocking_enabled_example"
+                app:useSimpleSummaryProvider="true"
+                app:iconSpaceReserved="false"/>
+
+             <SwitchPreferenceCompat
+                android:key="per_app_allow_calls_example"
+                android:title="@string/gaming_mode_allow_calls_title"
+                android:summary="@string/gaming_mode_allow_calls_summary"
+                android:defaultValue="true"
+                app:dependency="per_app_notification_blocking_enabled_example"
+                app:iconSpaceReserved="false"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="gaming_mode_settings_category_performance_example"
+            android:title="@string/gaming_mode_settings_category_performance">
+
+            <ListPreference
+                android:key="per_app_performance_mode_example"
+                android:title="@string/gaming_mode_performance_mode_title"
+                android:dialogTitle="@string/gaming_mode_performance_mode_dialog_title"
+                android:entries="@array/gaming_mode_performance_mode_entries"
+                android:entryValues="@array/gaming_mode_performance_mode_values"
+                android:defaultValue="off"
+                app:useSimpleSummaryProvider="true"
+                app:iconSpaceReserved="false"/>
+                <!-- TODO: Add warning for performance mode -->
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="gaming_mode_settings_category_display_example"
+            android:title="@string/gaming_mode_settings_category_display">
+            <SwitchPreferenceCompat
+                android:key="per_app_auto_brightness_disable_example"
+                android:title="@string/gaming_mode_auto_brightness_title"
+                android:summaryOn="@string/gaming_mode_auto_brightness_summary_on"
+                android:summaryOff="@string/gaming_mode_auto_brightness_summary_off"
+                android:defaultValue="false"
+                app:iconSpaceReserved="false"/>
+
+            <SwitchPreferenceCompat
+                android:key="per_app_nav_lock_example"
+                android:title="@string/gaming_mode_nav_lock_title"
+                android:summaryOn="@string/gaming_mode_nav_lock_summary_on"
+                android:summaryOff="@string/gaming_mode_nav_lock_summary_off"
+                android:defaultValue="false"
+                app:iconSpaceReserved="false"/>
+        </PreferenceCategory>
+
+         <PreferenceCategory
+            android:key="gaming_mode_settings_category_tools_example"
+            android:title="@string/gaming_mode_settings_category_tools">
+            <SwitchPreferenceCompat
+                android:key="per_app_fps_counter_example"
+                android:title="@string/gaming_mode_fps_title"
+                android:summaryOn="@string/gaming_mode_fps_summary_on"
+                android:summaryOff="@string/gaming_mode_fps_summary_off"
+                android:defaultValue="false"
+                app:iconSpaceReserved="false"/>
+
+            <SwitchPreferenceCompat
+                android:key="per_app_quick_shortcuts_example"
+                android:title="@string/gaming_mode_shortcuts_title"
+                android:summaryOn="@string/gaming_mode_shortcuts_summary_on"
+                android:summaryOff="@string/gaming_mode_shortcuts_summary_off"
+                android:defaultValue="false"
+                app:iconSpaceReserved="false"/>
+        </PreferenceCategory>
+    </PreferenceCategory>
+
+</PreferenceScreen>

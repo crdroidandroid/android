@@ -1,0 +1,68 @@
+// GameSpace Application Blueprint
+
+android_app {
+    name: "GameSpace",
+
+    // Platform API level.
+    // TODO: Adjust if necessary based on crDroid's target SDK
+    platform_apis: true,
+    // sdk_version: "current", // Or "system_current" or specific API level
+
+    srcs: [
+        "src/**/*.java",
+    ],
+
+    // Statically link any AOSP utility libraries if needed
+    // static_libs: [
+    //     "androidx.core_core",
+    //     "androidx.appcompat_appcompat",
+    //     "androidx.preference_preference",
+    //     // Add other AndroidX or Material Components libraries if used
+    // ],
+
+    // If using system libraries not available through androidx
+    libs: [
+        "framework", // Basic Android framework
+        // "services", // If interacting with system services directly in a way not covered by framework
+    ],
+
+    // AndroidManifest.xml
+    manifest: "AndroidManifest.xml",
+
+    // Resource directories
+    resource_dirs: ["res"],
+
+    // Asset directories (if any)
+    // asset_dirs: ["assets"],
+
+    // Set to true if this app should be bundled on the system image
+    // For testing, it might be false, and you'd install it manually.
+    // For a system feature like Gaming Mode, this should likely be true.
+    privileged: true, // Required for certain permissions like WRITE_SECURE_SETTINGS
+    certificate: "platform", // Sign with the platform certificate for system permissions
+
+    // Optimize the app (for release builds)
+    optimize: {
+        enabled: true,
+        proguard_flags_files: ["proguard.flags"], // Optional: create this file for custom rules
+    },
+
+    // Required if you have native code (JNI)
+    // jni_libs: [],
+
+    // For system apps, you might need to specify product packages
+    // product_specific: true, // If it's only for specific products
+
+    // TODO: This is a basic template. It might need adjustments based on:
+    // 1. crDroid's specific build configurations or common libraries.
+    // 2. Whether this app is intended to be part of Settings or standalone.
+    // 3. Specific AOSP/LineageOS libraries used.
+    // 4. If using AndroidX, ensure the libraries are correctly defined in AOSP
+    //    (they often have different names, e.g., "androidx.core_core-ktx").
+    //    For AOSP 12+ androidx libraries are often included by default or via soong_config variables.
+}
+
+// TODO: Add a proguard.flags file if needed for release builds to prevent over-stripping code.
+// Example: create packages/apps/GameSpace/proguard.flags
+// -keep class net.crdroid.gamespace.** { *; }
+// -dontwarn androidx.preference.** (if using androidx preferences and it's not fully part of platform)

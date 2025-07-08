@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Simple Gamepad Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16.5,9L13.5,12L16.5,15H22V9H16.5M7.5,9H2V15H7.5L10.5,12L7.5,9M12,13.5L15,16.5V22H9V16.5L12,13.5M15,2H9V7.5L12,10.5L15,7.5V2Z" />
+</vector>

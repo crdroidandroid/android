@@ -1,0 +1,41 @@
+# Proguard rules for GameSpace
+
+# Keep all classes in the app's package.
+# This is a broad rule; more specific rules can be added as needed.
+-keep class net.crdroid.gamespace.** { *; }
+
+# Keep classes related to activities, services, etc., that are referenced in AndroidManifest.xml
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends androidx.preference.Preference
+
+# Keep any Parcelable implementations
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+# Keep native methods
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# Keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# Keep R class members
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# Don't warn about certain AndroidX or common library issues if they are not critical
+# -dontwarn androidx.preference.**
+# -dontwarn androidx.core.**
+# -dontwarn androidx.appcompat.**
+
+# Add any other specific rules required by libraries or reflection.

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GameSpace</string>
+    <string name="gaming_mode_enabled_title">Enable Gaming Mode</string>
+    <string name="gaming_mode_enabled_summary">Toggle all gaming mode features</string>
+
+    <string name="gaming_mode_apps_title">Game List</string>
+    <string name="gaming_mode_apps_summary">Select apps to apply Gaming Mode settings</string>
+    <string name="gaming_mode_add_game_title">Add game</string>
+
+    <string name="gaming_mode_notification_blocking_title">Notification Blocking</string>
+    <string name="gaming_mode_notification_blocking_summary_on">Blocking notifications</string>
+    <string name="gaming_mode_notification_blocking_summary_off">Notifications allowed</string>
+    <string name="gaming_mode_notification_mode_title">Notification blocking mode</string>
+    <string name="gaming_mode_notification_mode_dialog_title">Select blocking mode</string>
+    <string name="gaming_mode_notification_mode_none">No blocking</string>
+    <string name="gaming_mode_notification_mode_heads_up">Block heads-up notifications</string>
+    <string name="gaming_mode_notification_mode_all">Block all notifications</string>
+    <string name="gaming_mode_allow_calls_title">Allow calls</string>
+    <string name="gaming_mode_allow_calls_summary">Allow calls from starred contacts only</string>
+    <string name="gaming_mode_allow_priority_conv_title">Allow priority conversations</string>
+    <string name="gaming_mode_allow_priority_conv_summary">Allow notifications from priority conversations</string>
+
+    <string name="gaming_mode_dnd_title">Automatic Do Not Disturb</string>
+    <string name="gaming_mode_dnd_summary_on">DND will be enabled automatically</string>
+    <string name="gaming_mode_dnd_summary_off">DND will not be enabled</string>
+
+    <string name="gaming_mode_performance_title">Performance Tuning</string>
+    <string name="gaming_mode_performance_summary_off">No performance tuning</string>
+    <string name="gaming_mode_performance_summary_balanced">Balanced performance</string>
+    <string name="gaming_mode_performance_summary_performance">Max performance (Warning: may increase heat and battery usage)</string>
+    <string name="gaming_mode_performance_mode_title">Performance mode</string>
+    <string name="gaming_mode_performance_mode_dialog_title">Select performance mode</string>
+    <string name="performance_mode_off">Off</string>
+    <string name="performance_mode_balanced">Balanced</string>
+    <string name="performance_mode_peak">Performance</string>
+    <string name="performance_mode_warning">Using high performance modes for extended periods may cause your device to overheat and could lead to instability or reduced battery life. Use with caution.</string>
+
+
+    <string name="gaming_mode_fps_title">Show FPS Counter</string>
+    <string name="gaming_mode_fps_summary_on">FPS will be shown on screen</string>
+    <string name="gaming_mode_fps_summary_off">FPS counter is hidden</string>
+
+    <string name="gaming_mode_shortcuts_title">Quick Access Shortcuts</string>
+    <string name="gaming_mode_shortcuts_summary_on">Shortcuts overlay enabled</string>
+    <string name="gaming_mode_shortcuts_summary_off">Shortcuts overlay disabled</string>
+
+    <string name="gaming_mode_auto_brightness_title">Disable Automatic Brightness</string>
+    <string name="gaming_mode_auto_brightness_summary_on">Automatic brightness disabled</string>
+    <string name="gaming_mode_auto_brightness_summary_off">Automatic brightness enabled</string>
+
+    <string name="gaming_mode_nav_lock_title">Navigation Lock</string>
+    <string name="gaming_mode_nav_lock_summary_on">Navigation gestures/buttons locked</string>
+    <string name="gaming_mode_nav_lock_summary_off">Navigation gestures/buttons active</string>
+
+    <string name="gaming_mode_settings_category_global">Global Settings</string>
+    <string name="gaming_mode_settings_category_per_app">Per-App Profiles</string>
+    <string name="gaming_mode_settings_category_notification">Notifications</string>
+    <string name="gaming_mode_settings_category_performance">Performance</string>
+    <string name="gaming_mode_settings_category_display">Display &amp; Input</string>
+    <string name="gaming_mode_settings_category_tools">Tools</string>
+
+</resources>
