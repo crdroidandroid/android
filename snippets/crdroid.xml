@@ -50,7 +50,6 @@
 
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="hardware/libhardware" name="crdroidandroid/android_hardware_libhardware" groups="pdk" remote="crdroid" />
-  <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
 
   <project path="kernel/configs" name="crdroidandroid/android_kernel_configs" groups="vts,pdk" remote="crdroid" />
 
