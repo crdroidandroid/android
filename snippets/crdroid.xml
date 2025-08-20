@@ -38,6 +38,7 @@
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
+  <project path="external/bouncycastle" name="crdroidandroid/android_external_bouncycastle" groups="pdk" remote="crdroid" />
   <project path="external/e2fsprogs" name="crdroidandroid/android_external_e2fsprogs" groups="pdk" remote="crdroid" />
   <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
