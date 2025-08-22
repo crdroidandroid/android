@@ -63,12 +63,14 @@
   <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="crdroid" />
   <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
+  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
