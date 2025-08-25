@@ -934,7 +934,7 @@
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
   <!--<project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />-->
   <project path="system/usb_info_tools" name="platform/system/usb_info_tools" groups="pdk" remote="aosp" />
-  <!--<project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />-->
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="system/zygote" name="platform/system/zygote" groups="pdk" remote="aosp" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp" />
   <project path="test/catbox" name="platform/test/catbox" groups="pdk" remote="aosp" />
