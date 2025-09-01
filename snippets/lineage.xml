@@ -182,7 +182,7 @@
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,pakala-wlan" revision="lineage-23.0-caf" />
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" />
+  <!--<project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" />-->
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" revision="lineage-23.0-legacy" />
   <project path="vendor/qcom/opensource/commonsys-intf/audio" name="LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
