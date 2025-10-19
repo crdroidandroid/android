@@ -2,91 +2,115 @@
 
 [logo]:https://crdroid.net/img/logo.png "crDroid Android"
 
-## 1. Grabbing the source ##
+## 1. Grabbing the source
 
-[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
-simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
+Repo is a tool provided by Google that simplifies using Git in the context of the Android source:
+- Repo docs: http://source.android.com/source/developing.html
+- Git docs: http://git-scm.com/book
 
-### 1.1 Installing dependencies and Repo ###
+### 1.1 Installing dependencies and Repo
 
-Several packages are needed in order to build crDroid
-```
+Several packages are needed in order to build crDroid. Example (we are using Ubuntu):
+```bash
 sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses6 libncurses-dev libsdl1.2-dev libssl-dev libwxgtk3.2-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 ```
+(Some of those packages may need adjustment for your linux distribution)
 
-Install Repo tool
+Install the Repo tool:
 ```bash
-# Make a directory where Repo will be stored and add it to the path
-$ mkdir ~/bin
-$ PATH=~/bin:$PATH
+# create ~/bin and add to PATH for this session (or add to your shell profile)
+mkdir -p ~/bin
+export PATH=~/bin:$PATH
 
-# Download Repo itself
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+# download Repo
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
-# Make Repo executable
-$ chmod a+x ~/bin/repo
+# make Repo executable
+chmod a+x ~/bin/repo
 ```
 
-### 1.2 Initializing Repo ###
+Tip: Add `export PATH=~/bin:$PATH` to `~/.bashrc` or your shell profile so Repo is available in future sessions.
 
+### 1.2 Initializing Repo
+
+Create a workspace and initialize the crDroid 16.0 manifest:
 ```bash
-# Create a directory for the source files
-# This can be located anywhere (as long as the fs is case-sensitive)
-$ mkdir crDroid
-$ cd crDroid
-
-# Install Repo in the created directory
-$ repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
+mkdir -p ~/crDroid
+cd ~/crDroid
+repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
 ```
 
-This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
-first run, it is expected to take a while as it will download all the required Android source files
-and their change histories.
-
+Sync the source tree (may take a long time on first run):
 ```bash
-# Let Repo take care of all the hard work
-$ repo sync
+repo sync
 ```
 
+Notes and useful flags:
+- To recover from interrupted syncs or to force a fresh copy:  
+  `repo sync --force-sync --no-tags --no-clone-bundle -j8` (adjust `-j` to match your bandwidth/CPUs).
+- Use `repo sync -c` to only sync the current branch per project (saves time/space) when appropriate.
+
+---
+
+## 2. Building
+
+Prepare the build environment:
 ```bash
-# Run to prepare our devices list
-$ . build/envsetup.sh
-# ... now run
-$ brunch devicecodename
+. build/envsetup.sh
 ```
 
-## 2. Contributions ##
+Build using:
+```bash
+brunch <devicecodename>
+```
+(Replace `<devicecodename>` with your device codename, e.g. `caiman`, `lemonadep`, etc.)
 
-To submit changes/patches, please send a pull request on GitHub. We will review and merge.
+Troubleshooting tips:
+- Out-of-disk-space: ensure enough free space (Android tree can require 100+ GB).
+- If builds fail after repo sync, try `repo sync --force-sync` and a clean build: `mka clean` then rebuild.
 
-## 3. How to become an Official Maintainer ##
+---
 
-Make sure you can follow our [rules-and-guidelines](https://github.com/crdroidandroid/rules-and-guidelines), then if all is right, just message Gabriel over [Telegram](https://telegram.me/gwolf2u) with the device you want to maintain.
+## 3. Contributions
 
-## 4. crDroid features / overlays, translations, forum template and OTA ##
+To submit changes or patches:
+- Fork the repository on GitHub, make your changes, and open a Pull Request against the appropriate branch.
+- We review PRs and merge them when appropriate.
 
-### 4.1 crDroid features / overlays ###
-Set those overlays to proper paths
+---
 
-Frameworks base  
-```overlay/frameworks/base/core/res/res/values/config.xml```  
-[https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml](https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml)
+## 4. How to become an Official Maintainer
 
-SystemUI  
-```overlay/frameworks/base/packages/SystemUI/res/values/config.xml```  
-[https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml](https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml)
+1. Read and follow our rules and guidelines:
+   https://github.com/crdroidandroid/rules-and-guidelines
+2. If everything is in order, message Gabriel on Telegram:
+   https://telegram.me/gwolf2u
 
-### 4.2 Translations ###
-We use Crowdin for translations since it is easy and everyone can do it.  
-To help out click [here](https://github.com/crdroidandroid/crdroid_features#translations).
+---
 
-### 4.3 Forum template ###
-Build ready? Tested all features and translations are smooth?  
-Why not share your build over your beloved forums?  
-To do so, we have made a [small template](https://github.com/crdroidandroid/crdroid_features/blob/16.0/ForumPostTemplate) to help out. Just edit what you need and let the downloads roll. :sunglasses:
+## 5. crDroid features / overlays, translations and forum template
 
-### 4.4 OTA ###
-So posted on forums and your users are enjoying your build.  
-Well you can help out your users by letting them know when you fix stuff in your builds with the help of our OTA app.   
-Since crDroid Oreo, if you want to be on the official maintainers list, you'll need to provide OTA access.  
-You can set it up really easy by reading [android_vendor_crDroidOTA](https://github.com/crdroidandroid/android_vendor_crDroidOTA/blob/16.0/README.md) repo description.
+### 5.1 crDroid overlays
+Set overlays to the proper paths.
+
+Frameworks base:
+```text
+overlay/frameworks/base/core/res/res/values/config.xml
+```
+Example reference:
+https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
+
+SystemUI:
+```text
+overlay/frameworks/base/packages/SystemUI/res/values/config.xml
+```
+Example reference:
+https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
+
+### 5.2 Translations
+We use Crowdin for translations. To help out see:
+https://github.com/crdroidandroid/crdroid_features#translations
+
+### 5.3 Forum template
+Ready to share your build? Use the forum post template:
+https://github.com/crdroidandroid/crdroid_features/blob/16.0/ForumPostTemplate
