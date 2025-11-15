@@ -47,7 +47,7 @@ repo sync
 
 Notes and useful flags:
 - To recover from interrupted syncs or to force a fresh copy:  
-  `repo sync --force-sync --no-tags --no-clone-bundle -j8` (adjust `-j` to match your bandwidth/CPUs).
+  `repo sync --force-sync --no-tags --no-clone-bundle -j"$(nproc -all)"` (adjust `-j` to match your bandwidth/CPUs).
 - Use `repo sync -c` to only sync the current branch per project (saves time/space) when appropriate.
 
 ---
