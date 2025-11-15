@@ -89,7 +89,6 @@
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
-  <project path="system/bpf" name="crdroidandroid/android_system_bpf" groups="pdk" remote="crdroid" />
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/keymaster" name="crdroidandroid/android_system_keymaster" groups="pdk" remote="crdroid" />
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" groups="pdk,sysui-studio" remote="crdroid" />
