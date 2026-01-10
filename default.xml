@@ -892,7 +892,7 @@
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/cros-codecs" name="platform/system/cros-codecs" groups="pdk" remote="aosp" />
   <project path="system/dmesgd" name="platform/system/dmesgd" groups="pdk" remote="aosp" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" remote="aosp" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk,sysui-studio" remote="aosp" />
