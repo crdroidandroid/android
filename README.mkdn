@@ -90,7 +90,7 @@ To submit changes or patches:
 
 ## 5. crDroid features / overlays, translations and forum template
 
-### 5.1 crDroid overlays
+### 5.1 crDroid overlays or flags
 Set overlays to the proper paths.
 
 Frameworks base:
@@ -107,10 +107,26 @@ overlay/frameworks/base/packages/SystemUI/res/values/config.xml
 Example reference:
 https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
 
-### 5.2 Translations
+---
+
+If you device supports blur but it is expensive to render, you should disable default blur with following prop:
+```text
+ro.surface_flinger.blur_disabled_by_default=true
+```
+
+If you see artifacts with blur, you can reduce blur rendering effect with following example overlays:  
+[Disable high performance transitions](https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/commit/a9f17d1197a9e7a6e383bddf9a05b4a3c32ebc8f)  
+[Reduce blur radius](https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/commit/8ed0ecd296e5b34304b40d5d71685c7b4de617cd)
+
+### 5.2 Build flags
+If your device cannot render blur at all, you should disable blur support by defining below in device.mk
+```text
+TARGET_SUPPORTS_BLUR := false
+```
+### 5.3 Translations
 We use Crowdin for translations. To help out see:
 https://github.com/crdroidandroid/crdroid_features#translations
 
-### 5.3 Forum template
+### 5.4 Forum template
 Ready to share your build? Use the forum post template:
 https://github.com/crdroidandroid/crdroid_features/blob/16.0/ForumPostTemplate
