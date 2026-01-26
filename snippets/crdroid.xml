@@ -53,6 +53,7 @@
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8750" />
 
   <project path="kernel/configs" name="crdroidandroid/android_kernel_configs" groups="vts,pdk" remote="crdroid" />
 
