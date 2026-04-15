@@ -32,6 +32,8 @@
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
+  <project path="axion-sdk" name="crdroidandroid/android_axion-sdk" remote="crdroid" />
+
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
 
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
