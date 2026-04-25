@@ -106,5 +106,6 @@
   <project path="vendor/certification" name="crdroidandroid/android_vendor_certification" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/themes" name="crdroidandroid/android_vendor_themes" remote="crdroid" />
 
 </manifest>
