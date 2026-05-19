@@ -32,10 +32,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" remote="aosp" />
-  <!--<project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>-->
+  <!--<project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" />-->
   <!--<project path="art" name="platform/art" groups="pdk" remote="aosp" />-->
   <!--<project path="bionic" name="LineageOS/android_bionic" groups="pdk" />-->
   <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" />
