@@ -564,7 +564,7 @@
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/usb-ids" name="platform/external/usb-ids" groups="pdk" remote="aosp" />
   <project path="external/uwb" name="platform/external/uwb" groups="pdk" remote="aosp" />
-  <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" remote="aosp" />
+  <project path="external/v4l2_codec2" name="LineageOS/android_external_v4l2_codec2" groups="pdk" />
   <project path="external/v4l-utils" name="platform/external/v4l-utils" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="pdk" remote="aosp" revision="f3f0485012135cbcff3822f129f3ac5b16c345b1" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" remote="aosp" />
