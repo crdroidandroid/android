@@ -34,9 +34,6 @@
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="crdroidandroid/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="16.0-caf-sm8550" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="crdroidandroid/android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="16.0-caf-sm8650" />
-  <project path="device/qcom/sepolicy_vndr/sm8750" name="crdroidandroid/android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="16.0-caf-sm8750" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
   <project path="external/bouncycastle" name="crdroidandroid/android_external_bouncycastle" groups="pdk" remote="crdroid" />
