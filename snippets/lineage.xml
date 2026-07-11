@@ -182,7 +182,7 @@
   <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
   <project path="hardware/qcom-caf/sm8750/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
   <project path="hardware/qcom-caf/sm8750/display/core" name="LineageOS/android_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-sm8750" />
-  <!--<project path="hardware/qcom-caf/sm8750/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8750" />-->
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8750" />
   <project path="hardware/qcom-caf/sm8750/display/intf" name="LineageOS/android_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-sm8750" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pakala-vendor" />
   <project path="hardware/qcom-caf/thermal-legacy-um" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-23.2-legacy-um" />
