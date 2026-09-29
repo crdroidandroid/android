@@ -98,14 +98,14 @@ Frameworks base:
 overlay/frameworks/base/core/res/res/values/config.xml
 ```
 Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
+https://github.com/crdroidandroid/android_frameworks_base/blob/17.0/core/res/res/values/cr_config.xml
 
 SystemUI:
 ```text
 overlay/frameworks/base/packages/SystemUI/res/values/config.xml
 ```
 Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
+https://github.com/crdroidandroid/android_frameworks_base/blob/17.0/packages/SystemUI/res/values/cr_config.xml
 
 ---
 
@@ -129,4 +129,4 @@ https://github.com/crdroidandroid/crdroid_features#translations
 
 ### 5.4 Forum template
 Ready to share your build? Use the forum post template:
-https://github.com/crdroidandroid/crdroid_features/blob/16.0/ForumPostTemplate
+https://github.com/crdroidandroid/crdroid_features/blob/17.0/ForumPostTemplate
