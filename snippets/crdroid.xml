@@ -57,6 +57,7 @@
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
+  <project path="packages/apps/Glimpse" name="crdroidandroid/android_packages_apps_Glimpse" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
@@ -65,6 +66,7 @@
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/Sandbox" name="crdroidandroid/android_packages_apps_Sandbox" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="crdroid" />
+  <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/apps/ThemeStore" name="crdroidandroid/android_packages_apps_ThemeStore" remote="crdroid" />
