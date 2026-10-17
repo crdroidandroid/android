@@ -123,6 +123,12 @@ If your device cannot render blur at all, you should disable blur support by def
 ```text
 TARGET_SUPPORTS_BLUR := false
 ```
+
+If your device doesn't include OEM faceunlock support, can enable crDroid supported one by enabling below build flag in device.mk
+```text
+TARGET_FACE_UNLOCK_SUPPORTED := true
+```
+
 ### 5.3 Translations
 We use Crowdin for translations. To help out see:
 https://github.com/crdroidandroid/crdroid_features#translations
