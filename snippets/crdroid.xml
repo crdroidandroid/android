@@ -80,7 +80,6 @@
   <project path="packages/resources/devicesettings" name="crdroidandroid/android_packages_resources_devicesettings" remote="crdroid" />
   <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
-  <project path="packages/services/QuickLook" name="crdroidandroid/android_packages_services_QuickLook" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
